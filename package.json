@@ -5,8 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
+    "dev": "start-storybook -p 6006",
+    "build:storybook": "build-storybook",
+    "build:styles": ""
   },
   "keywords": [],
   "author": "",
@@ -19,7 +20,6 @@
     "@storybook/addon-docs": "^5.2.4",
     "@storybook/html": "^5.2.4",
     "@storybook/react": "^5.2.4",
-    "babel-loader": "^8.0.6",
-    "react": "^16.10.2"
+    "babel-loader": "^8.0.6"
   }
 }

@@ -26,9 +26,9 @@ footer
 
 ```
 
-## "New Member" Sub Templates
+## Sub-Templates
 
-### `renew`
+### `membership`
 
 ```txt
 base-template
@@ -37,17 +37,13 @@ base-template
     sub-title
     image (each image should be distinct. no 2 templates should have the same image)
       caption
+    body-copy
   body
     -- net-community-member-form --
 base-template
 ```
 
-#### Questions
-
-- What are the items that you typically like to show for a renewal
-- Are there any time limits on renewals that we should always show?
-
-### `promotion`
+### `donation`
 
 ```txt
 base-template
@@ -56,17 +52,13 @@ base-template
     sub-title
     image (each image should be distinct. no 2 templates should have the same image)
       caption
+    body-copy
   body
     -- net-community-member-form --
 base-template
 ```
 
-#### Questions
-
-- What are the items that you typically like to show for a promotion?
-- How important are pictures
-
-### `standard`
+### `guest-passes`
 
 ```txt
 base-template
@@ -75,6 +67,7 @@ base-template
     sub-title
     image (each image should be distinct. no 2 templates should have the same image)
       caption
+    body-copy
   body
     -- net-community-member-form --
 base-template

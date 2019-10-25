@@ -18,18 +18,18 @@ $font-family-sans-serif: "Roboto", sans-serif;
 // $font-weight-base:            $font-weight-normal !default;
 // $line-height-base:            1.5 !default;
 
-// $h1-font-size:                $font-size-base * 2.5 !default;
+$h1-font-size: 30px;
 // $h2-font-size:                $font-size-base * 2 !default;
-// $h3-font-size:                $font-size-base * 1.75 !default;
+$h3-font-size: 16px;
 // $h4-font-size:                $font-size-base * 1.5 !default;
 // $h5-font-size:                $font-size-base * 1.25 !default;
 // $h6-font-size:                $font-size-base !default;
 
-// $headings-margin-bottom:      $spacer / 2 !default;
-// $headings-font-family:        null !default;
-// $headings-font-weight:        500 !default;
-// $headings-line-height:        1.2 !default;
-// $headings-color:              null !default;
+$headings-margin-bottom: 20px;
+$headings-font-family: "Roboto Condensed", sans-serif;
+$headings-font-weight: 700;
+$headings-line-height: 1.5;
+$headings-color: #333;
 
 // $display1-size:               6rem !default;
 // $display2-size:               5.5rem !default;
@@ -68,3 +68,13 @@ $font-family-sans-serif: "Roboto", sans-serif;
 // $mark-bg:                     #fcf8e3 !default;
 
 // $hr-margin-y:                 $spacer !default;
+
+// CUSTOM OVERRIDES
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  letter-spacing: 0.5px;
+}

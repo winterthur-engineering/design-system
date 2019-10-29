@@ -13,6 +13,9 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "pre-commit": [
+    "build"
+  ],
   "dependencies": {
     "bootstrap": "^4.3.1"
   },
@@ -26,6 +29,7 @@
     "css-loader": "^3.2.0",
     "html-loader": "^0.5.5",
     "node-sass": "^4.13.0",
+    "pre-commit": "^1.2.2",
     "sass-loader": "^8.0.0",
     "style-loader": "^1.0.0"
   }

@@ -13,6 +13,18 @@ module.exports = async ({ config, mode }) => {
     include: path.resolve(__dirname, "../")
   });
 
+  /**
+   * Enables raw HTML templates to be
+   * imported into the story and then
+   * subsequently developed in isolation
+   */
+  config.module.rules.push({
+    test: /\.(html)$/,
+    use: {
+      loader: "html-loader"
+    }
+  });
+
   // Return the altered config
   return config;
 };

@@ -6,8 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "start-storybook -p 6006",
-    "build:storybook": "build-storybook",
-    "build:styles": "node-sass styles/index.scss -o=storybook-static/ --output-style=compressed --source-comments=false",
+    "build:storybook": "build-storybook --output-dir=docs",
+    "build:styles": "node-sass styles/index.scss -o=docs/ --output-style=compressed --source-comments=false",
     "build": "npm run build:storybook && npm run build:styles"
   },
   "keywords": [],
@@ -24,6 +24,7 @@
     "@storybook/react": "^5.2.5",
     "babel-loader": "^8.0.6",
     "css-loader": "^3.2.0",
+    "html-loader": "^0.5.5",
     "node-sass": "^4.13.0",
     "sass-loader": "^8.0.0",
     "style-loader": "^1.0.0"

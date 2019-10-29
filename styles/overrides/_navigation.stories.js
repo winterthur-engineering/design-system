@@ -52,39 +52,121 @@ export const alignment = () => `
 `;
 
 export const navbar = () => `
-<nav class="navbar navbar-expand-lg navbar-light">
-  <a class="navbar-brand" href="#">
-    <img src="http://www.winterthur.org/wp-content/uploads/2018/01/web-logo300dpi.jpg" style="height: auto; max-width: 250px" />
-  </a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-
-  <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
-    <ul class="navbar-nav">
-      <li class="nav-item">
-        <a class="nav-link" href="http://www.winterthur.org/visit/" target="_blank">Visit</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="http://www.winterthur.org/exhibitions-events/" target="_blank">Exhibitions & Events</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="http://www.winterthur.org/education/" target="_blank">Education</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="http://www.winterthur.org/collections/" target="_blank">Collections</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="http://www.winterthur.org/membership/" target="_blank">Membership</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="http://www.winterthur.org/support/" target="_blank">Support</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="http://www.winterthur.org/shop/" target="_blank">Shop</a>
-      </li>
-    </ul>
-  </div>
+<nav class="navbar navbar-expand navbar-dark justify-content-between winterthur-navbar-top">
+  <ul class="navbar-nav">
+    <li class="nav-item">
+      <a class="nav-link" href="https://secure.winterthur.org/ecommerce/ItemList.aspx" target="_blank">Buy
+        Tickets</a>
+    </li>
+    <li class="nav-item winterthur-nav-spacer"></li>
+    <li class="nav-item">
+      <a class="nav-link" href="http://www.winterthur.org/visit/hours-directions/" target="_blank">Hours &
+        Directions</a>
+    </li>
+    <li class="nav-item winterthur-nav-spacer"></li>
+    <li class="nav-item">
+      <a class="nav-link" href="http://www.winterthur.org/visit/calendar/" target="_blank">Calendar</a>
+    <li class="nav-item winterthur-nav-spacer"></li>
+    <li class="nav-item">
+      <a class="nav-link" href="https://inside.winterthur.org/give" target="_blank">Give</a>
+    </li>
+  </ul>
+  <ul class="navbar-nav">
+    <li class="nav-item winterthur-nav-item-social">
+      <a href="https://www.facebook.com/winterthurmuse/?ref=nf" target="_blank">
+        <i class="fab fa-facebook-f"></i>
+      </a>
+    </li>
+    <li class="nav-item winterthur-nav-item-social">
+      <a href="https://twitter.com/winterthurmuse" target="_blank">
+        <i class="fab fa-twitter"></i>
+      </a>
+    </li>
+    <li class="nav-item winterthur-nav-item-social">
+      <a href="https://www.pinterest.com/winterthurmuse/" target="_blank">
+        <i class="fab fa-pinterest"></i>
+      </a>
+    </li>
+    <li class="nav-item winterthur-nav-item-social">
+      <a href="https://www.instagram.com/winterthurmuse/" target="_blank">
+        <i class="fab fa-instagram"></i>
+      </a>
+    </li>
+    <li class="nav-item winterthur-nav-item-social">
+      <a href="https://www.tripadvisor.com/Attraction_Review-g34060-d138300-Reviews-Winterthur_Museum_Garden_Library-Winterthur_Delaware.html"
+        target="_blank">
+        <i class="fab fa-tripadvisor"></i>
+      </a>
+    </li>
+    <li class="nav-item winterthur-nav-item-social">
+      <a href="http://museumblog.winterthur.org/" target="_blank">
+        <i class="fas fa-blog"></i>
+      </a>
+    </li>
+    <li class="nav-item winterthur-nav-item-social">
+      <a href="mailto:webmaster@winterthur.org" target="_blank">
+        <i class="fas fa-envelope"></i>
+      </a>
+    </li>
+  </ul>
 </nav>
-<div>
+`;
+
+export const topBar = () => `
+<nav class="navbar navbar-expand navbar-dark justify-content-between winterthur-navbar-top">
+  <ul class="navbar-nav">
+    <li class="nav-item">
+      <a class="nav-link" href="https://secure.winterthur.org/ecommerce/ItemList.aspx" target="_blank">Buy Tickets</a>
+    </li>
+    <li class="nav-item winterthur-nav-spacer" /></li>
+    <li class="nav-item">
+      <a class="nav-link" href="http://www.winterthur.org/visit/hours-directions/" target="_blank">Hours & Directions</a>
+    </li>
+    <li class="nav-item winterthur-nav-spacer" /></li>
+    <li class="nav-item">
+      <a class="nav-link" href="http://www.winterthur.org/visit/calendar/" target="_blank">Calendar</a>
+    </li>
+    <li class="nav-item winterthur-nav-spacer" /></li>
+    <li class="nav-item">
+      <a class="nav-link" href="https://inside.winterthur.org/give" target="_blank">Give</a>
+    </li>
+  </ul>
+  <ul class="navbar-nav">
+    <li class="nav-item winterthur-nav-item-social">
+      <a href="https://www.facebook.com/winterthurmuse/?ref=nf" target="_blank">
+        <i class="fab fa-facebook-f"></i>
+      </a>
+    </li>
+    <li class="nav-item winterthur-nav-item-social">
+      <a href="https://twitter.com/winterthurmuse" target="_blank">
+        <i class="fab fa-twitter"></i>
+      </a>
+    </li>
+    <li class="nav-item winterthur-nav-item-social">
+      <a href="https://www.pinterest.com/winterthurmuse/" target="_blank">
+        <i class="fab fa-pinterest"></i>
+      </a>
+    </li>
+    <li class="nav-item winterthur-nav-item-social">
+      <a href="https://www.instagram.com/winterthurmuse/" target="_blank">
+        <i class="fab fa-instagram"></i>
+      </a>
+    </li>
+    <li class="nav-item winterthur-nav-item-social">
+      <a href="https://www.tripadvisor.com/Attraction_Review-g34060-d138300-Reviews-Winterthur_Museum_Garden_Library-Winterthur_Delaware.html" target="_blank">
+        <i class="fab fa-tripadvisor"></i>
+      </a>
+    </li>
+    <li class="nav-item winterthur-nav-item-social">
+      <a href="http://museumblog.winterthur.org/" target="_blank">
+      <i class="fas fa-blog"></i>
+      </a>
+    </li>
+    <li class="nav-item winterthur-nav-item-social">
+      <a href="mailto:webmaster@winterthur.org" target="_blank">
+        <i class="fas fa-envelope"></i>
+      </a>
+    </li>
+  </ul>
+</nav>
 `;

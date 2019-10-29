@@ -1,5 +1,6 @@
 import "../../styles/index.scss";
+import baseTemplate from "./base-template.html";
 
 export default { title: "Templates" };
 
-export const base = () => `<div>hello world</div>`;
+export const base = () => baseTemplate;

@@ -17,6 +17,8 @@
   },
   "devDependencies": {
     "@babel/core": "^7.6.4",
+    "@fortawesome/fontawesome-free": "^5.11.2",
+    "@storybook/addon-docs": "^5.2.5",
     "@storybook/html": "^5.2.5",
     "@storybook/react": "^5.2.5",
     "babel-loader": "^8.0.6",

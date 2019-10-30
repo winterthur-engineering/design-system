@@ -1,9 +1,12 @@
 .navbar {
-  border-top: 1px solid #eee;
-  border-bottom: 1px solid #eee;
-
   &-dark {
     background: #f9f8f5;
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+  }
+
+  &:not(:last-child) {
+    border-bottom: 1px solid #eee;
   }
 }
 
@@ -35,6 +38,14 @@
           }
         }
 
+        a {
+          display: flex;
+          flex-direction: row;
+          justify-content: center;
+          align-items: center;
+          text-decoration: none;
+        }
+
         i {
           font-size: 17px;
           color: $secondary;
@@ -54,6 +65,12 @@
             line-height: 40px;
             padding: 0 !important;
           }
+        }
+      }
+
+      &-left {
+        @include media-breakpoint-down(sm) {
+          flex-direction: row;
         }
       }
     }

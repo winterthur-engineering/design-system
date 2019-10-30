@@ -4,7 +4,6 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "start-storybook -p 6006",
     "build:storybook": "build-storybook --output-dir=docs",
     "build:styles": "node-sass styles/index.scss -o=docs/ --output-style=compressed --source-comments=false",
@@ -14,9 +13,6 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "dependencies": {
-    "bootstrap": "^4.3.1"
-  },
   "devDependencies": {
     "@babel/core": "^7.6.4",
     "@fortawesome/fontawesome-free": "^5.11.2",
@@ -24,6 +20,7 @@
     "@storybook/html": "^5.2.5",
     "@storybook/react": "^5.2.5",
     "babel-loader": "^8.0.6",
+    "bootstrap": "^4.3.1",
     "css-loader": "^3.2.0",
     "html-loader": "^0.5.5",
     "node-sass": "^4.13.0",

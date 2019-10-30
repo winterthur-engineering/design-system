@@ -1,0 +1,20 @@
+@include make-custom-style {
+  &-header {
+    border-bottom: 1px solid #eee;
+  }
+  &-content {
+    margin: map-get($map: $spacers, $key: 5) 0;
+    padding: 0 map-get($map: $spacers, $key: 5);
+  }
+
+  &-typ {
+    &-caption {
+      text-align: center;
+      width: 100%;
+      margin: map-get($map: $spacers, $key: 2) auto;
+      font-style: italic;
+      color: rgba($secondary, 0.9);
+      font-size: 0.8rem;
+    }
+  }
+}

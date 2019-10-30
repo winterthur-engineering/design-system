@@ -1,6 +1,6 @@
 // Overrides here
 
-@import "./overrides/index";
+@import "./variable-overrides/index";
 
 // Required
 @import "../node_modules/bootstrap/scss/functions";
@@ -18,4 +18,6 @@
 
 @import "../node_modules/bootstrap/scss/bootstrap";
 
-@import "./custom/index";
+@import "./class-overrides/index";
+
+@import "./custom-styles/index";

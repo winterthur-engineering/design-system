@@ -1,0 +1,36 @@
+@include make-custom-style {
+  &-footer {
+    width: 100%;
+    padding-top: map-get($map: $spacers, $key: 4);
+    padding-bottom: map-get($map: $spacers, $key: 4);
+    margin-bottom: 0;
+    background: $winterthur-color-gray-1;
+    text-align: center;
+
+    &-col {
+      &:not(:last-child) {
+        @include media-breakpoint-down("md") {
+          margin-bottom: map-get($map: $spacers, $key: 5);
+        }
+      }
+    }
+
+    &-list {
+      margin: 0;
+      padding: 0;
+
+      & > li {
+        list-style-type: none;
+
+        &:not(:last-child) {
+          // should honestly use the spacer utility here, but since
+          // we're matching styles from the wordpress site, we'll
+          // opt to use some static styling
+          margin-bottom: 10px;
+          padding-bottom: 7px;
+          border-bottom: 1px solid rgba($secondary, 0.2);
+        }
+      }
+    }
+  }
+}

@@ -14,6 +14,16 @@ module.exports = async ({ config, mode }) => {
   });
 
   /**
+   * Enables the StorySource plugin to allow the developer
+   * to see what the story looks like in the addons panel
+   */
+  config.module.rules.push({
+    test: /\.stories\.jsx?$/,
+    loaders: [require.resolve("@storybook/source-loader")],
+    enforce: "pre"
+  });
+
+  /**
    * Enables raw HTML templates to be
    * imported into the story and then
    * subsequently developed in isolation

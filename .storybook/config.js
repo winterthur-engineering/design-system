@@ -1,4 +1,11 @@
-import { configure } from "@storybook/html";
+import { addParameters, configure } from "@storybook/html";
+import { theme } from "./theme";
+
+addParameters({
+  options: {
+    theme
+  }
+});
 
 configure(
   [

@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "dev": "start-storybook -p 6006",
-    "build:storybook": "build-storybook --output-dir=docs -s=.storybook/public",
-    "build:styles": "node-sass styles/index.scss -o=docs/ --output-style=compressed --source-comments=false -s=.storybook/public",
+    "build:storybook": "build-storybook --output-dir=docs -s .storybook/public",
+    "build:styles": "node-sass styles/index.scss -o=docs/ --output-style=compressed --source-comments=false",
     "build": "npm run build:storybook && npm run build:styles",
     "publish": "npm run build && git add . && git commit -m 'chore(docs): Publish assets' && git push",
     "upgrade-dependencies": "ncu -u"

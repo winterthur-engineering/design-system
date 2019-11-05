@@ -4,6 +4,8 @@ export default { title: "Components|Typography" };
 
 export const allHeadings = () => `
 <h1>The Museum</h1>
+<h2>The Museum</h2>
+<h3>The Museum</h3>
 `;
 
 export const paragraphs = () => `

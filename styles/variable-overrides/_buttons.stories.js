@@ -1,6 +1,6 @@
 import "../index.scss";
 
-export default { title: "Components|Buttons" };
+export default { title: "Design System|Buttons" };
 
 export const allButtons = () => `
 <button type="button" class="btn btn-primary">Primary</button>

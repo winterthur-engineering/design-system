@@ -1,6 +1,6 @@
 import "../index.scss";
 
-export default { title: "Components|Typography" };
+export default { title: "Design System|Typography" };
 
 export const allHeadings = () => `
 <h1>The Museum</h1>

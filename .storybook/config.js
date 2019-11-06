@@ -10,7 +10,7 @@ addParameters({
 configure(
   [
     require.context("../styles", true, /\.stories\.(js|mdx)$/),
-    require.context("../templates", true, /\.stories\.(js|mdx)$/)
+    require.context("../markup", true, /\.stories\.(js|mdx)$/)
   ],
   module
 );

@@ -1,6 +1,6 @@
 import "../index.scss";
 
-export default { title: "Components|Navigation" };
+export default { title: "Design System|Navigation" };
 
 export const baseNav = () => `
 <ul class="nav">

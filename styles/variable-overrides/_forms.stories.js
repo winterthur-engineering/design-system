@@ -1,6 +1,6 @@
 import "../index.scss";
 
-export default { title: "Components|Forms" };
+export default { title: "Design System|Forms" };
 
 export const basicForm = () => `
 <form>

@@ -1,6 +1,8 @@
 import "../../../styles/index.scss";
-import membership from "./membership.html";
+import membershipWelcome from "./membership-welcome.html";
+import membershipJoin from "./membership-join.html";
 
-export default { title: "Part Types|Membership", component: membership };
+export default { title: "Part Types|Membership", component: membershipWelcome };
 
-export const base = () => membership;
+export const welcome = () => membershipWelcome;
+export const join = () => membershipJoin;

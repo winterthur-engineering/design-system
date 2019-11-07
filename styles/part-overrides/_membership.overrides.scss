@@ -1,11 +1,6 @@
 /********   Membership Form ********/
 
 .BBMembershipCategoryTable {
-  max-width: 540px;
-  margin: 0 auto;
-  padding: 0 map-get($map: $spacers, $key: 3);
-  display: block;
-
   & > tbody {
     & > tr {
       @extend .row;
@@ -54,11 +49,10 @@
   }
 }
 
-.BBMembershipCategorySeparator {
-}
-
+.BBMembershipCategorySeparator,
 .BBMembershipCategoryListStart,
 .BBMembershipCategoryListEnd {
+  border-top: 1px solid $winterthur-color-gray-1;
 }
 
 .BBMembershipCardFieldsetLegend {
@@ -69,7 +63,8 @@
 
 .BBMembershipFieldCaption {
   /* System Defaults */
-  width: 175px;
+  // width: 175px;
+  width: auto;
 }
 
 .BBMembershipSummaryFieldCaption {
@@ -78,6 +73,7 @@
 }
 
 .BBMembershipFieldCheckboxCaption {
+  margin: map-get($map: $spacers, $key: 3) 0;
 }
 
 .BBMembershipControlCell {

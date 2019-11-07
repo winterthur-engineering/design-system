@@ -1,3 +1,7 @@
+td.wsNowrap {
+  padding: 0 !important;
+}
+
 /********   Default Styles ********/
 
 .BBFormCheckListContainer {
@@ -349,13 +353,23 @@
 
 .BBFieldCaption {
   /* System Defaults */
-  text-align: right;
-  white-space: nowrap;
+  // text-align: right;
+  // white-space: nowrap;
+  padding: 0 !important;
+  display: block;
+  margin: map-get($map: $spacers, $key: 3) 0;
+
+  & > span {
+  }
+
+  label {
+    margin: 0;
+  }
 }
 
 .BBFieldCheckboxCaption {
   /* System Defaults */
-  text-align: left;
+  // text-align: left;
   @include make-custom-checkbox;
 }
 
@@ -371,7 +385,11 @@
 
 .BBFormButtonRow {
   /* System Defaults */
-  background-color: white;
+  // background-color: white;
+  display: block;
+  padding-top: map-get($map: $spacers, $key: 4);
+  border-top: 1px solid $winterthur-color-gray-1;
+  margin: map-get($map: $spacers, $key: 4) auto;
 }
 
 .BBFormCheckbox {
@@ -414,6 +432,8 @@
 }
 
 .BBFormSubmitButton {
+  @extend .btn-primary;
+  @extend .btn;
 }
 
 .BBFormTable {
@@ -427,6 +447,8 @@
   // make sure that every table is 100% width because
   // the dum-dums at netcommunity decided to use tables
   // as form control containers
+
+  @include make-form-container;
   table {
     width: 100% !important;
   }
@@ -434,14 +456,16 @@
 
 .BBFormTextArea {
   /* System Defaults */
-  font-family: Verdana, Helvetica, sans-serif;
-  font-size: 11px;
-  font-weight: normal;
+  // font-family: Verdana, Helvetica, sans-serif;
+  // font-size: 11px;
+  // font-weight: normal;
+  @extend .form-control;
 }
 
 .BBFormTextbox {
   /* System Defaults */
-  width: 150px;
+  // width: 150px;
+  @extend .form-control;
 }
 
 .BBFormTitle {

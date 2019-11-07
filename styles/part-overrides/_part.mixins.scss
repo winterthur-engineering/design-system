@@ -25,3 +25,10 @@
     cursor: pointer;
   }
 }
+
+@mixin make-form-container {
+  max-width: 540px;
+  margin: 0 auto;
+  padding: 0 map-get($map: $spacers, $key: 3);
+  display: block;
+}

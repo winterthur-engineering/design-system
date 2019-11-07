@@ -1,0 +1,27 @@
+@mixin make-custom-radio {
+  @extend .custom-control;
+  @extend .custom-radio;
+
+  & > input {
+    @extend .custom-control-input;
+  }
+
+  & > label {
+    @extend .custom-control-label;
+    cursor: pointer;
+  }
+}
+
+@mixin make-custom-checkbox {
+  @extend .custom-control;
+  @extend .custom-checkbox;
+
+  & > input {
+    @extend .custom-control-input;
+  }
+
+  & > label {
+    @extend .custom-control-label;
+    cursor: pointer;
+  }
+}

@@ -1,0 +1,254 @@
+/********   Donation Form ********/
+.DonationCaptureLink {
+  &:active {
+  }
+
+  &:hover {
+  }
+
+  &:link {
+  }
+
+  &:visited {
+  }
+}
+
+.DonationHelpForm {
+  &DDTable {
+    /* System Defaults */
+    height: 275px;
+  }
+
+  &GATable {
+    /* System Defaults */
+    height: 280px;
+  }
+
+  &CheckTable {
+    /* System Defaults */
+    height: 50px;
+  }
+
+  &CSCTable {
+    /* System Defaults */
+    height: 400px;
+  }
+}
+
+.DonationFormTable {
+  &_DonationPanel {
+  }
+
+  &_DonationPanel_SymbolLabel {
+  }
+}
+
+.DonationCaptureFieldControlCellAmount {
+  /* System Defaults */
+  font-weight: bold;
+  width: 400px;
+}
+
+.DonationCaptcha {
+  /* System Defaults */
+  margin: 0px;
+}
+
+.DonationCaptchaControlCell {
+  /* System Defaults */
+  margin-left: 154px;
+  clear: right;
+  margin-top: 3px;
+  white-space: nowrap;
+}
+
+.DonationCaptchaImageContainer {
+  /* System Defaults */
+  border: 1px solid #aaaaaa;
+}
+
+.DonationCaptchaActionLinkContainer {
+  /* System Defaults */
+  text-align: right;
+}
+
+.DonationECardSectionSeparator {
+  /* System Defaults */
+  background-color: LightGrey;
+  margin-left: 20px;
+  padding: 2px;
+}
+
+.DonationECardSectionBody {
+  /* System Defaults */
+  padding: 5px 5px 5px 20px;
+}
+
+.DonationECardTemplate {
+  /* System Defaults */
+  padding: 2px;
+}
+
+.DonationGrid {
+}
+
+.DonationGridHeaderCell {
+}
+
+.DonationGridCell {
+}
+
+.DonorChallenge {
+}
+
+.DonorChallengeIntro {
+}
+
+.DonationCaptureFieldCaption {
+  /* System Defaults */
+  background: gainsboro;
+  width: 150px;
+}
+
+.DonationFieldCaption {
+  /* System Defaults */
+  background: gainsboro;
+}
+
+.DonationCaptchaCaption {
+  /* System Defaults */
+  float: left;
+  clear: left;
+  text-align: right;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-top: 2px;
+}
+
+.DonationFieldCheckboxCaption {
+}
+
+.DonationCaptureFieldControlCell {
+}
+
+.DonationFieldControlCell {
+}
+
+.DonationButtonCell {
+  /* System Defaults */
+  text-align: right;
+}
+
+.DonationCaptureReadonlyValue {
+  /* System Defaults */
+  text-align: left;
+}
+
+.DonationCaptureRequiredFieldMarker {
+}
+
+.DonationRequiredFieldMarker {
+}
+
+.DonationCaptureSelectList {
+}
+
+.DonationCaptureSelectListNarrow {
+  /* System Defaults */
+  width: 75px;
+}
+
+.DonationSelectList {
+}
+
+.DonationSubmitButton {
+}
+
+.DonationCaptureFormTable {
+  /* System Defaults */
+  width: 100%;
+}
+
+.DonationFormTable {
+}
+
+.DonationCaptureTextArea {
+  /* System Defaults */
+  width: 350px;
+}
+
+.DonationTextArea {
+  /* System Defaults */
+  width: 350px;
+}
+
+.DonationCaptureTextbox {
+}
+
+.DonationCaptureTextboxNarrow {
+  /* System Defaults */
+  width: 80px;
+}
+
+.DonationCaptureTextboxWide {
+  /* System Defaults */
+  width: 350px;
+}
+
+.DonationTextbox {
+}
+
+.DonationTextboxNarrow {
+  /* System Defaults */
+  width: 80px;
+}
+
+.DonationTextboxWide {
+  /* System Defaults */
+  width: 350px;
+}
+
+.DonationValidationSummary {
+}
+
+.DonationGridFooter {
+}
+
+.DonationGridHeader {
+}
+
+.DonationGridEvenRow {
+}
+
+.DonationCaptureListingHeading {
+  /* System Defaults */
+  background-color: #333399;
+  color: White;
+  height: 30px;
+  text-align: center;
+}
+
+.DonationListingHeading {
+  /* System Defaults */
+  background-color: #333399;
+  color: white;
+  height: 30px;
+  text-align: center;
+}
+
+.DonationGridOddRow {
+}
+
+.DonationMessage {
+}
+
+.DonationCaptchaInformation {
+}
+
+.DonationCaptureControlMessage {
+}
+
+.DonationCaptureAddressLookupLink {
+}
+
+/***** End Donation Form styles *****/

@@ -1,0 +1,879 @@
+/********   Default Styles ********/
+
+.BBFormCheckListContainer {
+  /* System Defaults */
+  height: 100px;
+  overflow: auto;
+}
+
+.BBCalendarWeekendDay {
+  /* System Defaults */
+  border-right: black 1px solid;
+  border-top: black 1px solid;
+  border-left: black 1px solid;
+  border-bottom: black 1px solid;
+}
+
+.BBCalendarDay {
+  /* System Defaults */
+  border-right: black 1px solid;
+  border-top: black 1px solid;
+  border-left: black 1px solid;
+  border-bottom: black 1px solid;
+}
+
+.ReportInformationCell {
+  /* System Defaults */
+  height: 150px;
+  white-space: normal;
+  overflow: auto;
+}
+
+.BBGridHeader {
+}
+
+.BBGridFooter {
+}
+
+.BBModalDialog {
+  /* System Defaults */
+  border: solid thin #999999;
+}
+
+.BBModalDialogTitle {
+  /* System Defaults */
+  background-color: #000066;
+  border-bottom: solid thin #999999;
+  color: #ffffff;
+  font-weight: bold;
+  overflow: hidden;
+  padding: 3px 3px 3px 3px;
+  text-align: left;
+  white-space: nowrap;
+}
+
+.BBModalDialogContent {
+  /* System Defaults */
+  background-color: #ffffff;
+  padding: 3px 3px 3px 3px;
+}
+
+.BBModalDialogButton {
+  /* System Defaults */
+  width: 100px;
+}
+
+.BBFieldSet {
+}
+
+.BBSequenceMap {
+  /* System Defaults */
+  margin: 0px;
+  padding: 0px;
+}
+
+.BBSequenceMapStepList {
+  /* System Defaults */
+  margin: 0;
+  padding: 0;
+  display: block;
+  overflow: auto;
+}
+
+.BBSequenceMapStep {
+  /* System Defaults */
+  list-style: none;
+  float: left;
+  margin-right: 6px;
+  margin-bottom: 5px;
+}
+
+.BBSequenceMapCurrentStep {
+  /* System Defaults */
+  font-weight: bold;
+}
+
+.BBSequenceMapStepItem {
+  /* System Defaults */
+  display: block;
+  border: 1px solid #999999;
+  background-color: #dddddd;
+  padding: 10px 5px;
+  text-decoration: none;
+  color: #000000;
+  min-width: 60px;
+  text-align: center;
+  font-size: 10px;
+  min-height: 13px;
+  white-space: nowrap;
+}
+
+.BBSequenceMapStepLink {
+  /* System Defaults */
+  color: #000000;
+  font-size: 10px;
+}
+
+.BBSequenceMapStepLink:link {
+  /* System Defaults */
+  color: #000000;
+  font-size: 10px;
+}
+
+.BBSequenceMapStepLink:visited {
+  /* System Defaults */
+  color: #000000;
+  font-size: 10px;
+}
+
+.BBSequenceMapStepLink:hover {
+  /* System Defaults */
+  color: #000000;
+  text-decoration: underline;
+  background-color: #eeeeee;
+  font-size: 10px;
+}
+
+.BBSequenceMapStepLink:active {
+  /* System Defaults */
+  color: #000000;
+  font-size: 10px;
+}
+
+.BBSequenceMapCurrentStepItem {
+  /* System Defaults */
+  background-color: #aaaaaa;
+  border-color: #555555;
+}
+
+.BBSequenceMapContentContainer {
+  /* System Defaults */
+  clear: left;
+  margin-top: 20px;
+}
+
+.BBSequenceMapContentHeader {
+}
+
+.BBSequenceMapCommandContainer {
+}
+
+.BBSequenceMapNavigationContainer {
+  /* System Defaults */
+  float: right;
+  margin-top: 15px;
+  margin-right: 25px;
+}
+
+.BBSequenceMapNavigationButton {
+}
+
+.DCFieldCaption {
+  /* System Defaults */
+  width: 150px;
+  display: block;
+  float: left;
+  margin-right: 2px;
+  padding-right: 5px;
+  text-align: right;
+}
+
+.DCCreditValidation {
+  /* System Defaults */
+  margin-bottom: 0px;
+}
+
+.DCCreditExpiration {
+  /* System Defaults */
+  margin-bottom: 0px;
+}
+
+.DonationCaptureFormTableFieldset {
+  /* System Defaults */
+  border: none;
+}
+
+.DonationCaptureFormTableFieldLegend {
+  /* System Defaults */
+  font-weight: bold;
+  font-size: 13px;
+  color: #000000;
+  padding: 0px;
+}
+
+.DonationCaptureFormTableFieldDiv {
+}
+
+.DonationCaptureFormTableFDFieldLegend {
+  /* System Defaults */
+  font-weight: normal;
+  font-size: 11px;
+}
+
+.BBSequenceMapOptionalContainer {
+  /* System Defaults */
+  float: left;
+  margin-top: 15px;
+  margin-right: 25px;
+}
+
+.BBClear {
+  /* System Defaults */
+  clear: both;
+  display: block;
+  position: relative;
+}
+
+.BBSequenceMapPreviousStep {
+}
+
+.BBSequenceMapFutureStep {
+}
+
+.BBSequenceMapFutureStepItem {
+}
+
+.BBSequenceMapFirstStep {
+}
+
+.BBSequenceMapLastStep {
+}
+
+.AlphaIndex {
+}
+
+.AlphaIndexDescription {
+}
+
+.AlphaIndexItem {
+  /* System Defaults */
+  padding: 2px;
+  margin: 2px;
+  font-size: 1.2em;
+  font-family: Arial, Verdana;
+  text-decoration: underline;
+}
+
+.AlphaIndexSelectedItem {
+  /* System Defaults */
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.AlphaIndexDisabledItem {
+  /* System Defaults */
+  text-decoration: none;
+}
+
+.BML_Header {
+  /* System Defaults */
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.BML_Desc {
+  /* System Defaults */
+  display: block;
+  margin: 8px 0px 8px 0px;
+}
+
+.BML_Content textarea {
+  /* System Defaults */
+  width: 300px;
+}
+
+.BBCalendar {
+  /* System Defaults */
+  border-color: black;
+}
+
+.BBCalendar:active {
+  /* System Defaults */
+  color: #00008b;
+}
+
+.BBCalendar:hover {
+  /* System Defaults */
+  color: #00008b;
+}
+
+.BBCalendar:link {
+  /* System Defaults */
+  color: #00008b;
+}
+
+.BBCalendar:visited {
+  /* System Defaults */
+  color: #00008b;
+}
+
+.BBCalendarDayHeader {
+  /* System Defaults */
+  background-color: #336699;
+  color: White;
+  height: 1px;
+}
+
+.BBCalendarNextPrev {
+  /* System Defaults */
+  background-color: #336699;
+  color: white;
+}
+
+.BBCalendarOtherMonthDay {
+  /* System Defaults */
+  color: #cc9966;
+}
+
+.BBCalendarSelectedDay {
+  /* System Defaults */
+  font-weight: bold;
+}
+
+.BBCalendarSelector {
+  /* System Defaults */
+  background-color: #336699;
+}
+
+.BBCalendarTitle {
+  /* System Defaults */
+  background-color: #336699;
+  color: white;
+  font-weight: bold;
+}
+
+.BBCalendarTodayDay {
+  /* System Defaults */
+  background-color: #b0c4de;
+}
+
+.BBFieldCaption {
+  /* System Defaults */
+  text-align: right;
+  white-space: nowrap;
+}
+
+.BBFieldCheckboxCaption {
+  /* System Defaults */
+  text-align: left;
+  @include make-custom-checkbox;
+}
+
+.BBFieldControlCell {
+  /* System Defaults */
+  text-align: left;
+}
+
+.BBFormButtonCell {
+  /* System Defaults */
+  text-align: center;
+}
+
+.BBFormButtonRow {
+  /* System Defaults */
+  background-color: white;
+}
+
+.BBFormCheckbox {
+}
+
+.BBFormChecklist {
+  /* System Defaults */
+  border: 1pt solid buttonFace;
+}
+
+.BBFormErrorMessage {
+  /* System Defaults */
+  color: red;
+  font-weight: bold;
+}
+
+.BBFormReadonlyValue {
+  /* System Defaults */
+  font-style: italic;
+}
+
+.BBFormRequiredFieldMarker {
+  /* System Defaults */
+  color: red;
+  font-size: medium;
+  font-weight: bolder;
+  vertical-align: middle;
+}
+
+.BBFormRequiredFieldMissingText {
+  /* System Defaults */
+  color: Red;
+  font-weight: bold;
+}
+
+.BBFormSelectList {
+  /* System Defaults */
+  background-color: White;
+  width: auto;
+}
+
+.BBFormSubmitButton {
+}
+
+.BBFormTable {
+  /* System Defaults */
+  // border: 1pt solid buttonface;
+  // those defaults are stupid as hell... use these instead
+
+  width: 100%;
+  margin: 0;
+
+  // make sure that every table is 100% width because
+  // the dum-dums at netcommunity decided to use tables
+  // as form control containers
+  table {
+    width: 100% !important;
+  }
+}
+
+.BBFormTextArea {
+  /* System Defaults */
+  font-family: Verdana, Helvetica, sans-serif;
+  font-size: 11px;
+  font-weight: normal;
+}
+
+.BBFormTextbox {
+  /* System Defaults */
+  width: 150px;
+}
+
+.BBFormTitle {
+  /* System Defaults */
+  border-bottom: 1pt solid buttonface;
+  color: black;
+  font-weight: bold;
+  text-align: center;
+}
+
+.BBFormValidatorSummary {
+  /* System Defaults */
+  background-color: white;
+  color: red;
+  text-align: left;
+}
+
+.BBListingHeading {
+  /* System Defaults */
+  background-color: buttonFace;
+  border: 1pt solid buttonFace;
+  font-size: 10pt;
+  text-align: left;
+}
+
+.BBListingItem {
+}
+
+.BBListingTable {
+  /* System Defaults */
+  border-bottom: 1pt solid buttonFace;
+  border-top: 1pt solid buttonFace;
+}
+
+.BBMessage {
+  /* System Defaults */
+  font-style: italic;
+}
+
+.BBNameLink:active {
+  /* System Defaults */
+  color: Black;
+}
+
+.BBNameLink:hover {
+  /* System Defaults */
+  color: Green;
+}
+
+.BBNameLink:link {
+  /* System Defaults */
+  color: black;
+}
+
+.BBNameLink:visited {
+  /* System Defaults */
+  color: blue;
+}
+
+.BBPrivateListingItem {
+}
+
+.PagedListFooter {
+  /* System Defaults */
+  background-color: transparent;
+  font-family: Verdana, Helvetica, sans-serif;
+  font-size: 8pt;
+  font-weight: normal;
+}
+
+.PagedListFooterLink:hover {
+  /* System Defaults */
+  color: #06c;
+  text-decoration: underline;
+}
+
+.PagedListFooterLink:link {
+  /* System Defaults */
+  color: #06c;
+  text-decoration: none;
+}
+
+.PagedListFooterLink:visited {
+  /* System Defaults */
+  color: #69c;
+  text-decoration: none;
+}
+
+.SpellBody {
+  /* System Defaults */
+  background-color: #f5f5f5;
+  padding: 0px 6px 6px 6px;
+}
+
+.SpellButton {
+  /* System Defaults */
+  margin: 0px, 0px, 2px, 2px;
+  width: 100%;
+}
+
+.SpellCheckBadWord {
+  /* System Defaults */
+  color: Red;
+  font-weight: bold;
+}
+
+.SpellCheckTextBox {
+  /* System Defaults */
+  width: 100%;
+}
+
+.SpellFieldValue {
+  /* System Defaults */
+  font-size: 8pt;
+  text-align: left;
+}
+
+.SpellHeading {
+  /* System Defaults */
+  font-family: Verdana, Helvetica, sans-serif;
+  font-size: 8pt;
+  font-weight: bold;
+}
+
+.SpellHeadingCell {
+  /* System Defaults */
+  background-color: #e9e9e9;
+  width: 100%;
+}
+
+.SpellHeadLegend {
+  /* System Defaults */
+  font-family: Verdana, Helvetica, sans-serif;
+  font-size: 8pt;
+  font-style: normal;
+  font-weight: normal;
+}
+
+.SpellLegend {
+  /* System Defaults */
+  font-family: Verdana, Helvetica, sans-serif;
+  font-size: 8pt;
+  font-weight: bold;
+  text-align: right;
+}
+
+.SpellSubject {
+  /* System Defaults */
+  font-size: 8pt;
+  font-weight: bold;
+}
+
+.SpellSuggestionList {
+  /* System Defaults */
+  border: 1px solid black;
+  height: auto;
+  width: 100%;
+}
+
+.SpellText {
+  /* System Defaults */
+  background-color: #f5f5f5;
+  padding: 12px, 6px, 6px, 6px;
+}
+
+.SpellTextValue {
+  /* System Defaults */
+  font-family: Verdana, Helvetica, sans-serif;
+  font-size: 8pt;
+  text-align: left;
+}
+
+.BBListOddRowStyle {
+  /* System Defaults */
+  background-color: #e9e9e9;
+}
+
+.BBListEvenRowStyle {
+}
+
+.MatchFinderResultsList {
+  /* System Defaults */
+  background-color: transparent;
+  font-family: Verdana, Helvetica, sans-serif;
+  font-size: 8pt;
+  font-weight: normal;
+}
+
+.ReportChartCell {
+}
+
+.OCCHeader {
+  /* System Defaults */
+  font-family: arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 10pt;
+  color: #ff9900;
+}
+
+.OCCClassName {
+  /* System Defaults */
+  font-family: arial, Helvetica, sans-serif;
+  font-weight: bold;
+  color: #0066cc;
+}
+
+.OCCTableHeaderRow {
+}
+
+.OCCTableAlternatingRow {
+}
+
+.OCCFilterCaption {
+}
+
+.BBListingHeadingSortedDescending {
+  /* System Defaults */
+  background-position: right center;
+  background-repeat: no-repeat;
+}
+
+.BBListingHeadingSortedAscending {
+  /* System Defaults */
+  background-position: right center;
+  background-repeat: no-repeat;
+}
+
+.BBListingHeadingLink {
+}
+
+.BBListingHeadingLink:active {
+  /* System Defaults */
+  font-weight: bold;
+}
+
+.BBListingHeadingLink:hover {
+  /* System Defaults */
+  font-weight: bold;
+}
+
+.BBListingHeadingLink:link {
+  /* System Defaults */
+  font-weight: bold;
+}
+
+.BBListingHeadingLink:visited {
+  /* System Defaults */
+  font-weight: bold;
+}
+
+.BBModalEditFormButtonPane {
+}
+
+.BBModalEditFormBody {
+}
+
+.BBModalEditFormHeaderLabel {
+  /* System Defaults */
+  font-size: 14px;
+}
+
+.BBModalEditFormHeader {
+}
+
+.BBModalEditFormHelpText {
+}
+
+.BBModalEditForm {
+  /* System Defaults */
+  font-family: arial, verdana;
+  font-size: 11px;
+}
+
+.ModalEditFromSavingMessage {
+  /* System Defaults */
+  background-color: #ffff99;
+  visibility: visible;
+  font-weight: bolder;
+  font-size: small;
+  color: black;
+  vertical-align: middle;
+}
+
+.BBPager {
+  /* System Defaults */
+  height: 15px \0 / IE9;
+  padding-top: 2px \0 / IE9;
+}
+
+.BBPagerPageLink {
+  /* System Defaults */
+  border: 1px Solid #cccccc;
+  padding: 4px;
+  margin: 3px;
+}
+
+.BBPagerPageLink:hover {
+  /* System Defaults */
+  background-color: #cccccc;
+}
+
+.BBPagerSeparator {
+  /* System Defaults */
+  padding: 4px;
+  margin: 3px;
+}
+
+.BBPagerPageSelectedLink {
+  /* System Defaults */
+  padding: 4px;
+  margin: 3px;
+}
+
+.BBPagerPrevPageLink {
+  /* System Defaults */
+  border: 1px Solid #cccccc;
+  padding: 4px;
+  margin: 3px;
+}
+
+.BBPagerPrevPageLink:hover {
+  /* System Defaults */
+  background-color: #cccccc;
+}
+
+.BBPagerNextPageLink {
+  /* System Defaults */
+  border: 1px Solid #cccccc;
+  padding: 4px;
+  margin: 3px;
+}
+
+.BBPagerNextPageLink:hover {
+  /* System Defaults */
+  background-color: #cccccc;
+}
+
+.ReportCalendar {
+  /* System Defaults */
+  font-size: 8pt;
+}
+
+.ReportCalendarDay {
+}
+
+.ReportCalendarDayHeader {
+}
+
+.ReportCalendarNextPrev {
+}
+
+.ReportCalendarOtherMonthDay {
+}
+
+.ReportCalendarSelectedDay {
+}
+
+.ReportCalendarSelector {
+}
+
+.ReportCalendarTitle {
+}
+
+.ReportCalendarTodayDay {
+}
+
+.ReportCalendarWeekendDay {
+}
+
+.SpellFieldCaption {
+  /* System Defaults */
+  font-size: 8pt;
+  font-weight: bold;
+  text-align: left;
+}
+
+.MatchFinderDetailsCaption {
+}
+
+.HTMLPublishingHelpText {
+}
+
+.MatchFinderDetailsValue {
+  /* System Defaults */
+  font-size: 10pt;
+  font-style: normal;
+}
+
+.SpellFormTable {
+  /* System Defaults */
+  font-family: Verdana, Helvetica, sans-serif;
+  font-size: 8pt;
+  font-weight: normal;
+}
+
+.MatchFinderFormTable {
+}
+
+.ReportFormTable {
+}
+
+.HTMLPublishingTextArea {
+}
+
+.SpellFormTitle {
+  /* System Defaults */
+  font-family: Verdana, Helvetica, sans-serif;
+  font-size: 8pt;
+  width: 100%;
+}
+
+.ReportTitle {
+  /* System Defaults */
+  height: 18px;
+}
+
+.MatchFinderEvenRowStyle {
+}
+
+.ReportEvenRowStyle {
+}
+
+.ReportListingHeading {
+}
+
+.MatchFinderOddRowStyle {
+}
+
+.ReportOddRowStyle {
+}
+
+.MatchFinderMessage {
+}
+
+/***** End Default Styles styles *****/

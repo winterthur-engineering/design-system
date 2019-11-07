@@ -1,0 +1,166 @@
+/********   Membership Form ********/
+
+.BBMembershipCategoryTable {
+  max-width: 540px;
+  margin: 0 auto;
+  padding: 0 map-get($map: $spacers, $key: 3);
+  display: block;
+
+  & > tbody {
+    & > tr {
+      @extend .row;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: flex-start;
+
+      & > td {
+        @extend .col;
+      }
+    }
+  }
+}
+
+.BBCurrentMembershipCaption {
+  /* System Defaults */
+  height: 30px;
+  padding-top: 15px;
+  vertical-align: bottom;
+  width: 100%;
+  border-bottom: 1pt solid black;
+}
+
+.BBMembershipBenefitsFormTable {
+}
+
+.BBMembershipSummaryActionCaption {
+  /* System Defaults */
+  height: 30px;
+  padding-top: 15px;
+  vertical-align: bottom;
+  width: 100%;
+}
+
+.BBMembershipBenefitsLink {
+}
+
+.BBMembershipCatDescription {
+  margin: map-get($map: $spacers, $key: 2) 0 0 map-get($map: $spacers, $key: 4);
+
+  & > span {
+    font-size: $font-size-sm;
+    color: $secondary;
+    font-weight: $font-weight-light;
+  }
+}
+
+.BBMembershipCategorySeparator {
+}
+
+.BBMembershipCategoryListStart,
+.BBMembershipCategoryListEnd {
+}
+
+.BBMembershipCardFieldsetLegend {
+}
+
+.BBMembershipSubCategoryFieldCaption {
+}
+
+.BBMembershipFieldCaption {
+  /* System Defaults */
+  width: 175px;
+}
+
+.BBMembershipSummaryFieldCaption {
+  /* System Defaults */
+  width: 150px;
+}
+
+.BBMembershipFieldCheckboxCaption {
+}
+
+.BBMembershipControlCell {
+  // column with the money in it
+  &:nth-child(2) {
+    flex: 1;
+    font-weight: 600;
+    text-align: right;
+  }
+
+  &:nth-child(3),
+  &:nth-child(4) {
+    display: none;
+  }
+  & > span {
+    @include make-custom-radio;
+  }
+}
+
+.BBMembershipFormReadonlyValue {
+  /* System Defaults */
+  font-weight: lighter;
+  font-style: italic;
+}
+
+.BBMembershipGOMButton {
+}
+
+.BBMembershipRenewButton {
+}
+
+.BBMembershipJoinButton {
+}
+
+.BBMembershipBackButton {
+}
+
+.BBMembershipNextButton {
+}
+
+.BBMembershipSubmitButton {
+}
+
+.BBMembershipFormTable {
+}
+
+.BBMembershipTextArea {
+  /* System Defaults */
+  width: 100%;
+}
+
+.BBMembershipTextBox {
+}
+
+.BBMembershipTextboxNarrow {
+  /* System Defaults */
+  width: 80px;
+}
+
+.BBMembershipFormTitle {
+}
+
+.BBMembershipValidationSummary {
+}
+
+.BBMembershipBenefitsGridHeader {
+  /* System Defaults */
+  font-weight: bold;
+  font-size: x-small;
+}
+
+.BBMembershipBenefitsGridItem {
+  /* System Defaults */
+  font-size: x-small;
+}
+
+.BBCurrentMembershipList {
+}
+
+.BBMembershipBenefitsTable {
+}
+
+.BBMembershipMessage {
+}
+
+/***** End Membership Form styles *****/

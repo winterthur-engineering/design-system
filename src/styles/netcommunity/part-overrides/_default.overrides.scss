@@ -1,3 +1,5 @@
+$input-max-width: 350px;
+
 td.wsNowrap {
   padding: 0 !important;
 }
@@ -352,30 +354,22 @@ td.wsNowrap {
 }
 
 .BBFieldCaption {
-  /* System Defaults */
-  // text-align: right;
-  // white-space: nowrap;
-  padding: 0 !important;
-  display: block;
-  margin: map-get($map: $spacers, $key: 3) 0;
-
-  & > span {
-  }
-
-  label {
-    margin: 0;
-  }
 }
 
-.BBFieldCheckboxCaption {
-  /* System Defaults */
-  // text-align: left;
-  @include make-custom-checkbox;
-}
-
+/** FORM CONTROL STYLES **/
 .BBFieldControlCell {
-  /* System Defaults */
-  text-align: left;
+  & > span {
+    @include make-custom-radio;
+  }
+
+  & > select {
+    @extend .form-control;
+    max-width: $input-max-width;
+  }
+
+  .BBFieldCheckboxCaption {
+    @include make-custom-checkbox;
+  }
 }
 
 .BBFormButtonCell {
@@ -384,8 +378,6 @@ td.wsNowrap {
 }
 
 .BBFormButtonRow {
-  /* System Defaults */
-  // background-color: white;
   display: block;
   padding-top: map-get($map: $spacers, $key: 4);
   border-top: 1px solid $winterthur-color-gray-1;
@@ -455,17 +447,13 @@ td.wsNowrap {
 }
 
 .BBFormTextArea {
-  /* System Defaults */
-  // font-family: Verdana, Helvetica, sans-serif;
-  // font-size: 11px;
-  // font-weight: normal;
   @extend .form-control;
+  max-width: $input-max-width;
 }
 
 .BBFormTextbox {
-  /* System Defaults */
-  // width: 150px;
   @extend .form-control;
+  max-width: $input-max-width;
 }
 
 .BBFormTitle {
@@ -484,11 +472,14 @@ td.wsNowrap {
 }
 
 .BBListingHeading {
-  /* System Defaults */
-  background-color: buttonFace;
-  border: 1pt solid buttonFace;
-  font-size: 10pt;
-  text-align: left;
+  @extend .h2;
+  width: 100%;
+
+  & > span {
+    display: block;
+    width: 100%;
+    color: $primary;
+  }
 }
 
 .BBListingItem {
@@ -501,15 +492,6 @@ td.wsNowrap {
 }
 
 .BBMessage {
-  /* System Defaults */
-  // font-style: italic;
-  display: block;
-  font-size: $font-size-sm;
-  font-weight: $font-weight-light;
-  padding: map-get($map: $spacers, $key: 4);
-  margin-top: map-get($map: $spacers, $key: 4);
-  background: $primary;
-  color: $white;
 }
 
 .BBNameLink:active {
@@ -701,26 +683,25 @@ td.wsNowrap {
 }
 
 .BBListingHeadingLink {
-}
+  &active {
+    /* System Defaults */
+    font-weight: bold;
+  }
 
-.BBListingHeadingLink:active {
-  /* System Defaults */
-  font-weight: bold;
-}
+  &hover {
+    /* System Defaults */
+    font-weight: bold;
+  }
 
-.BBListingHeadingLink:hover {
-  /* System Defaults */
-  font-weight: bold;
-}
+  &link {
+    /* System Defaults */
+    font-weight: bold;
+  }
 
-.BBListingHeadingLink:link {
-  /* System Defaults */
-  font-weight: bold;
-}
-
-.BBListingHeadingLink:visited {
-  /* System Defaults */
-  font-weight: bold;
+  &visited {
+    /* System Defaults */
+    font-weight: bold;
+  }
 }
 
 .BBModalEditFormButtonPane {

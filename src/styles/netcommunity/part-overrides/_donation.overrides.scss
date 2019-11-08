@@ -14,33 +14,49 @@
 }
 
 .DonationHelpForm {
-  &DDTable {
-    /* System Defaults */
-    height: 275px;
-  }
+}
+.DonationHelpFormDDTable {
+  /* System Defaults */
+  height: 275px;
+}
 
-  &GATable {
-    /* System Defaults */
-    height: 280px;
-  }
+.DonationHelpFormGATable {
+  /* System Defaults */
+  height: 280px;
+}
 
-  &CheckTable {
-    /* System Defaults */
-    height: 50px;
-  }
+.DonationHelpFormCheckTable {
+  /* System Defaults */
+  height: 50px;
+}
 
-  &CSCTable {
-    /* System Defaults */
-    height: 400px;
-  }
+.DonationHelpFormCSCTable {
+  /* System Defaults */
+  height: 400px;
 }
 
 .DonationFormTable {
-  &_DonationPanel {
-  }
+  tbody {
+    display: block;
 
-  &_DonationPanel_SymbolLabel {
+    & > tr {
+      display: flex;
+      width: 100%;
+
+      & > td {
+        &:nth-child(2) {
+          flex: 1;
+        }
+      }
+    }
   }
+}
+
+.DonationFormTable_DonationPanel {
+}
+
+.DonationFormTable_DonationPanel_SymbolLabel {
+  vertical-align: top;
 }
 
 .DonationCaptureFieldControlCellAmount {
@@ -55,11 +71,8 @@
 }
 
 .DonationCaptchaControlCell {
-  /* System Defaults */
-  margin-left: 154px;
-  clear: right;
-  margin-top: 3px;
-  white-space: nowrap;
+  margin-top: map-get($map: $spacers, $key: 2);
+  width: 100%;
 }
 
 .DonationCaptchaImageContainer {
@@ -104,15 +117,9 @@
 .DonorChallengeIntro {
 }
 
+.DonationFieldCaption,
 .DonationCaptureFieldCaption {
-  /* System Defaults */
-  background: gainsboro;
-  width: 150px;
-}
-
-.DonationFieldCaption {
-  /* System Defaults */
-  background: gainsboro;
+  width: 180px;
 }
 
 .DonationCaptchaCaption {
@@ -129,9 +136,17 @@
 }
 
 .DonationCaptureFieldControlCell {
+  margin-bottom: map-get($map: $spacers, $key: 2);
 }
 
 .DonationFieldControlCell {
+  display: flex;
+  margin-bottom: map-get($map: $spacers, $key: 2);
+
+  td {
+    @include make-custom-radio;
+    display: flex;
+  }
 }
 
 .DonationButtonCell {
@@ -167,45 +182,43 @@
 .DonationCaptureFormTable {
   /* System Defaults */
   width: 100%;
+  padding: 0;
 }
 
 .DonationFormTable {
 }
 
 .DonationCaptureTextArea {
-  /* System Defaults */
-  width: 350px;
+  max-width: $input-max-width;
 }
 
 .DonationTextArea {
   /* System Defaults */
-  width: 350px;
+  max-width: $input-max-width;
 }
 
 .DonationCaptureTextbox {
+  max-width: $input-max-width;
 }
 
 .DonationCaptureTextboxNarrow {
-  /* System Defaults */
-  width: 80px;
+  max-width: $input-max-width;
 }
 
 .DonationCaptureTextboxWide {
-  /* System Defaults */
-  width: 350px;
+  max-width: $input-max-width;
 }
 
 .DonationTextbox {
+  max-width: $input-max-width;
 }
 
 .DonationTextboxNarrow {
-  /* System Defaults */
-  width: 80px;
+  max-width: $input-max-width;
 }
 
 .DonationTextboxWide {
-  /* System Defaults */
-  width: 350px;
+  max-width: $input-max-width;
 }
 
 .DonationValidationSummary {
@@ -221,19 +234,34 @@
 }
 
 .DonationCaptureListingHeading {
-  /* System Defaults */
-  background-color: #333399;
-  color: White;
-  height: 30px;
-  text-align: center;
+  @extend .h3;
+  & > span {
+    display: block;
+    width: 100%;
+  }
+
+  & > * {
+    display: block;
+    margin-top: map-get($map: $spacers, $key: 3);
+    margin-bottom: map-get($map: $spacers, $key: 2);
+  }
 }
 
 .DonationListingHeading {
-  /* System Defaults */
-  background-color: #333399;
-  color: white;
-  height: 30px;
-  text-align: center;
+  @extend .h2;
+  & > span {
+    @extend .text-primary;
+    width: 100%;
+    display: block;
+  }
+
+  & > * {
+    display: block;
+    margin-top: map-get($map: $spacers, $key: 4);
+    margin-bottom: map-get($map: $spacers, $key: 2);
+    padding-bottom: map-get($map: $spacers, $key: 2);
+    border-bottom: 1px solid rgba($primary, 0.3);
+  }
 }
 
 .DonationGridOddRow {

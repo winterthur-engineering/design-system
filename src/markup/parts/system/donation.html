@@ -1,0 +1,1038 @@
+<div id="PC1230_UpdatePanel">
+
+  <style type="text/css">
+    .ColumnNoWrapHelper {
+      white-space: nowrap;
+    }
+  </style>
+
+  <input name="PC1230$HiddenID" type="hidden" id="PC1230_HiddenID">
+  <input name="PC1230$hdnConsentLayoutType" type="hidden" id="PC1230_hdnConsentLayoutType">
+
+
+  <div id="PC1230_pnlDonationForm">
+
+    <a id="PC1230_lnkTarget" href="javascript:__doPostBack('PC1230$lnkTarget','')"></a>
+
+
+    <div id="PC1230_pnlConsentPopup" class="displayNone pnlConsentPopup" align="center"
+      style="display: none; position: fixed;">
+
+
+      <div class="consent-body">
+
+      </div>
+
+    </div>
+
+    <span id="PC1230_DonationCapture1_ctl55" style="display:none;"></span><span id="PC1230_DonationCapture1_ctl56"
+      style="display:none;"></span><span id="PC1230_DonationCapture1_ctl57" style="display:none;"></span><span
+      id="PC1230_DonationCapture1_ctl58" style="display:none;"></span><span id="PC1230_DonationCapture1_ctl59"
+      style="display:none;"></span><span id="PC1230_DonationCapture1_ctl60" style="display:none;"></span><span
+      id="PC1230_DonationCapture1_CustomValidatorEmail" style="display:none;"></span><span
+      id="PC1230_DonationCapture1_ctl50" style="display:none;"></span><span id="PC1230_DonationCapture1_ctl51"
+      style="display:none;"></span><span id="PC1230_DonationCapture1_ctl52" style="display:none;"></span><span
+      id="PC1230_DonationCapture1_ctl67" style="display:none;"></span>
+    <table class="BBFormTable DonationFormTable">
+      <tbody>
+        <tr>
+          <td class="BBMessage DonationMessage" colspan="2">
+
+          </td>
+        </tr>
+        <tr>
+          <td class="BBMessage DonationMessage" colspan="2">
+
+          </td>
+        </tr>
+        <tr>
+          <td colspan="2">
+            <div id="PC1230_ValidationSummary1" class="BBFormValidatorSummary DonationValidationSummary"
+              style="display:none;">
+
+            </div>
+
+          </td>
+        </tr>
+        <tr>
+          <td id="PC1230_DonorChallengeInfo" colspan="2" class="BBMessage DonationMessage DonorChallenge">
+
+          </td>
+
+        </tr>
+        <tr>
+          <td class="BBListingHeading DonationListingHeading" colspan="2">
+            <span id="PC1230_lblPersonal">Donation Information</span>
+          </td>
+        </tr>
+
+      </tbody>
+      <tbody id="PC1230_TB_pnlDonation" class="DonationFormTable_DonationPanel">
+        <tr>
+          <td id="PC1230_thCaptionAmount" class="BBFieldCaption DonationFieldCaption" valign="top">
+            <label for="PC1230_txtAmount" id="PC1230_lblAmountCaption">Amount:</label>
+          </td>
+
+          <td class="BBFieldControlCell DonationFieldControlCell">
+            <table id="PC1230_tblAmount" class="taLeft" cellpadding="3">
+              <tbody>
+                <tr>
+                  <td class="BBFieldControlCell DonationFieldControlCell"><span class="vaTop" itemindex="14"
+                      amount="1000"><input id="PC1230_rdo_14_6" type="radio" name="PC1230$givingLevels" value="rdo_14_6"
+                        onclick="rdo_OnClick(this);"><label for="PC1230_rdo_14_6">1.</label></span></td>
+                  <td class="vaBottom BBFieldControlCell DonationFieldControlCell"><span>$ 1,000.00 </span><span
+                      class="BBConvertedCurrencyLabel"></span></td>
+                </tr>
+                <tr>
+                  <td class="BBFieldControlCell DonationFieldControlCell"><span class="vaTop" itemindex="15"
+                      amount="500"><input id="PC1230_rdo_15_6" type="radio" name="PC1230$givingLevels" value="rdo_15_6"
+                        onclick="rdo_OnClick(this);"><label for="PC1230_rdo_15_6">2.</label></span></td>
+                  <td class="vaBottom BBFieldControlCell DonationFieldControlCell"><span>$ 500.00 </span><span
+                      class="BBConvertedCurrencyLabel"></span></td>
+                </tr>
+                <tr>
+                  <td class="BBFieldControlCell DonationFieldControlCell"><span class="vaTop" itemindex="16"
+                      amount="250"><input id="PC1230_rdo_16_6" type="radio" name="PC1230$givingLevels" value="rdo_16_6"
+                        onclick="rdo_OnClick(this);"><label for="PC1230_rdo_16_6">3. </label></span></td>
+                  <td class="vaBottom BBFieldControlCell DonationFieldControlCell"><span>$ 250.00 </span><span
+                      class="BBConvertedCurrencyLabel"></span></td>
+                </tr>
+                <tr>
+                  <td class="BBFieldControlCell DonationFieldControlCell"><span class="vaTop" itemindex="17"
+                      amount="100"><input id="PC1230_rdo_17_6" type="radio" name="PC1230$givingLevels" value="rdo_17_6"
+                        onclick="rdo_OnClick(this);"><label for="PC1230_rdo_17_6">4.</label></span></td>
+                  <td class="vaBottom BBFieldControlCell DonationFieldControlCell"><span>$ 100.00 </span><span
+                      class="BBConvertedCurrencyLabel"></span></td>
+                </tr>
+                <tr>
+                  <td class="BBFieldControlCell DonationFieldControlCell"><span class="vaTop" itemindex="22"
+                      amount="50"><input id="PC1230_rdo_22_6" type="radio" name="PC1230$givingLevels" value="rdo_22_6"
+                        onclick="rdo_OnClick(this);"><label for="PC1230_rdo_22_6">5. </label></span></td>
+                  <td class="vaBottom BBFieldControlCell DonationFieldControlCell"><span>$ 50.00 </span><span
+                      class="BBConvertedCurrencyLabel"></span></td>
+                </tr>
+                <tr>
+                  <td class="BBFieldControlCell DonationFieldControlCell"><span class="vaTop" itemindex="23"
+                      amount="25"><input id="PC1230_rdo_23_6" type="radio" name="PC1230$givingLevels" value="rdo_23_6"
+                        onclick="rdo_OnClick(this);"><label for="PC1230_rdo_23_6">6. </label></span></td>
+                  <td class="vaBottom BBFieldControlCell DonationFieldControlCell"><span>$ 25.00 </span><span
+                      class="BBConvertedCurrencyLabel"></span></td>
+                </tr>
+                <tr id="PC1230_trOther" style="display:;">
+                  <td id="PC1230_tdOther" class="BBFieldControlCell DonationFieldControlCell"><span
+                      itemindex="-1"><input id="PC1230_rdoOther" type="radio" name="PC1230$givingLevels"
+                        value="rdoOther" onclick="rdo_OnClick(this);"><label for="PC1230_rdoOther">Other</label></span>
+                  </td>
+                  <td class="wsNowrap BBFieldControlCell DonationFieldControlCell">
+                    <table style="margin-left: -3px">
+                      <tbody>
+                        <tr>
+                          <td>
+                            <span id="PC1230_lblSymbol" class="DonationFormTable_DonationPanel_SymbolLabel">$</span>
+                          </td>
+                          <td id="PC1230_Td1">
+                            <input name="PC1230$txtAmount" type="text" maxlength="10" id="PC1230_txtAmount"
+                              disabled="disabled" class="aspNetDisabled BBFormTextbox DonationTextboxNarrow"
+                              onkeyup="UpdateSummary();">
+                            &nbsp;
+                            <span id="PC1230_ReqFldValidatorAmount" style="display:none;"></span><span
+                              id="PC1230_CmpValidatorAmount" style="display:none;"></span></td>
+
+                          <td>
+                            &nbsp;
+                          </td>
+                          <td>
+                            <span id="PC1230_lblAmtRequiredMarker"
+                              class="BBFormRequiredFieldMarker DonationRequiredFieldMarker"
+                              style="visibility:hidden;">*</span>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </td>
+        </tr>
+      </tbody>
+
+
+
+
+      <tbody>
+        <tr id="PC1230_trAdditInformation">
+          <td class="BBListingHeading DonationListingHeading" colspan="3">
+            <span id="PC1230_lblAdditInformation">Additional Information</span>
+          </td>
+        </tr>
+        <tr id="PC1230_trGiftType" style="display:;">
+          <td id="PC1230_tdGiftTypeCaption" class="BBFieldCaption DonationFieldCaption" valign="top">
+            <span id="PC1230_lblGiftTypeCaption">Type of gift:</span>
+          </td>
+          <td colspan="2" class="BBFieldControlCell DonationFieldControlCell">
+            <table id="PC1230_rdoGiftType">
+              <tbody>
+                <tr>
+                  <td><input id="PC1230_rdoGiftType_0" type="radio" name="PC1230$rdoGiftType" value="OneTime"
+                      checked="checked"><label for="PC1230_rdoGiftType_0">One-time gift</label></td>
+                </tr>
+                <tr>
+                  <td><input id="PC1230_rdoGiftType_1" type="radio" name="PC1230$rdoGiftType" value="Recurring"
+                      onclick="javascript:setTimeout('__doPostBack(\'PC1230$rdoGiftType$1\',\'\')', 0)"><label
+                      for="PC1230_rdoGiftType_1">Recurring gift</label></td>
+                </tr>
+              </tbody>
+            </table>
+
+          </td>
+        </tr>
+        <tr id="PC1230_trRecurrence" style="display:none;">
+          <td id="PC1230_tdFrequencyCaption" class="BBFieldCaption DonationFieldCaption">
+            <label for="PC1230_Recurrence_ddlFrequency" id="PC1230_lblFrequencyCaption">Frequency:</label>
+          </td>
+          <td colspan="2" class="BBFieldControlCell DonationFieldControlCell">
+
+            <table>
+              <tbody>
+                <tr>
+                  <td id="PC1230_Recurrence_tdFrequency" valign="bottom">
+                    <select name="PC1230$Recurrence$ddlFrequency"
+                      onchange="javascript:setTimeout('__doPostBack(\'PC1230$Recurrence$ddlFrequency\',\'\')', 0)"
+                      id="PC1230_Recurrence_ddlFrequency" class="BBFormSelectList DonationSelectList">
+                      <option selected="selected" value="1">Weekly</option>
+                      <option value="2">Monthly</option>
+                      <option value="3">Quarterly</option>
+                      <option value="4">Annually</option>
+
+                    </select>
+                    <div id="PC1230_Recurrence_divFrequency">
+                      <table>
+                        <tbody>
+                          <tr id="PC1230_Recurrence_trWeekly">
+                            <td>
+                              <label for="PC1230_Recurrence_ddlDayOfWeek1" id="PC1230_Recurrence_lblTxtOnWeek"
+                                class="BBFieldCaption">On:</label>
+                              &nbsp;<select name="PC1230$Recurrence$ddlDayOfWeek1" id="PC1230_Recurrence_ddlDayOfWeek1"
+                                class="BBFormSelectList DonationSelectList">
+                                <option value="Sunday">Sunday</option>
+                                <option value="Monday">Monday</option>
+                                <option value="Tuesday">Tuesday</option>
+                                <option value="Wednesday">Wednesday</option>
+                                <option selected="selected" value="Thursday">Thursday</option>
+                                <option value="Friday">Friday</option>
+                                <option value="Saturday">Saturday</option>
+
+                              </select>
+                            </td>
+                          </tr>
+
+
+
+                          <tr id="PC1230_Recurrence_trRange">
+                            <td colspan="2" class="wsNowrap">
+                              <label for="PC1230_Recurrence_DatePickerStart" id="PC1230_Recurrence_lblTxtStarting"
+                                class="BBFieldCaption">Starting:</label>
+                              <input name="PC1230$Recurrence$DatePickerStart" type="text" value="11/7/2019"
+                                id="PC1230_Recurrence_DatePickerStart"
+                                class="BBFormTextbox DonationTextboxNarrow hasDatepicker" placeholder="mm/dd/yyyy"><img
+                                class="ui-datepicker-trigger" src="images/calendar.gif" alt="Start Date"
+                                title="Start Date">&nbsp;&nbsp;
+                              <label for="PC1230_Recurrence_DatePickerEnd" id="PC1230_Recurrence_lblTxtEnding"
+                                class="BBFieldCaption">Ending:</label>
+                              <input name="PC1230$Recurrence$DatePickerEnd" type="text"
+                                id="PC1230_Recurrence_DatePickerEnd"
+                                class="BBFormTextbox DonationTextboxNarrow hasDatepicker" placeholder="mm/dd/yyyy"><img
+                                class="ui-datepicker-trigger" src="images/calendar.gif" alt="End Date" title="End Date">
+                              <span id="spanTruePledgeEndingDate" style="display:none">
+                                &nbsp;
+                                <span id="PC1230_Recurrence_lblEndingOnCaption">Ending: </span>
+                                &nbsp;
+                                <span id="lblTruePledgeEndingDate"></span>
+                              </span>
+                            </td>
+                          </tr>
+
+                        </tbody>
+                      </table>
+                    </div>
+                  </td>
+
+                </tr>
+              </tbody>
+            </table>
+
+          </td>
+        </tr>
+        <tr id="PC1230_trCorporate">
+          <td class="BBFieldCaption DonationFieldCaption">
+            <label for="PC1230_chkCorporate" id="PC1230_lblCorporateCaption">Corporate:</label>
+          </td>
+          <td colspan="2" class="BBFieldControlCell DonationFieldControlCell">
+            <span class="BBFieldCheckboxCaption DonationFieldCheckboxCaption"><input id="PC1230_chkCorporate"
+                type="checkbox" name="PC1230$chkCorporate"
+                onclick="javascript:setTimeout('__doPostBack(\'PC1230$chkCorporate\',\'\')', 0)"><label
+                for="PC1230_chkCorporate">This donation is on behalf of a company.</label></span>
+          </td>
+        </tr>
+        <tr id="PC1230_trAnonymous">
+          <td class="BBFieldCaption DonationFieldCaption">
+            <label for="PC1230_chkAnonymous" id="PC1230_lblAnonymousCaption">Anonymous:</label>
+          </td>
+          <td colspan="2" class="BBFieldControlCell DonationFieldControlCell">
+            <span class="BBFieldCheckboxCaption DonationFieldCheckboxCaption"><input id="PC1230_chkAnonymous"
+                type="checkbox" name="PC1230$chkAnonymous"><label for="PC1230_chkAnonymous">I prefer to make this
+                donation anonymously.</label></span>
+          </td>
+        </tr>
+        <tr id="PC1230_trComments">
+          <td class="vaTop BBFieldCaption DonationFieldCaption">
+            <label for="PC1230_txtComments" id="PC1230_lblCommentsCaption">Comments:</label>
+          </td>
+          <td colspan="2">
+            <textarea name="PC1230$txtComments" rows="2" cols="20" id="PC1230_txtComments"
+              class="BBFormTextArea DonationTextArea"></textarea>
+          </td>
+        </tr>
+
+
+
+        <tr>
+          <td colspan="3" class="BBFieldControlCell DonationFieldControlCell displayInline">
+
+
+          </td>
+        </tr>
+
+
+      </tbody>
+      <tbody id="PC1230_DonationCapture1_tbdyFinderNumber">
+
+
+        <input type="hidden" name="PC1230$DonationCapture1$FinderNum$inDivFormat"
+          id="PC1230_DonationCapture1_FinderNum_inDivFormat">
+
+      </tbody>
+
+      <tbody class="BBFormTable DonationCaptureFormTable">
+        <tr>
+          <td class="BBListingHeading DonationCaptureListingHeading" colspan="3">
+            <span id="PC1230_DonationCapture1_lblBilling">Billing Information</span></td>
+        </tr>
+
+        <tr>
+          <td class="BBFieldCaption DonationCaptureFieldCaption">
+            <label for="PC1230_DonationCapture1_cboTitle" id="PC1230_DonationCapture1_lblTitle1">Title:</label>
+          </td>
+          <td class="BBFieldControlCell DonationCaptureFieldControlCell">
+            <select name="PC1230$DonationCapture1$cboTitle" id="PC1230_DonationCapture1_cboTitle"
+              class="BBFormSelectList DonationCaptureSelectList">
+              <option selected="selected" value=""></option>
+              <option value="16651">{none]</option>
+              <option value="6764">Dr.</option>
+              <option value="6975">Dr. and Mrs.</option>
+              <option value="6788">Drs.</option>
+              <option value="7526">Estate of</option>
+              <option value="10356">Messrs.</option>
+              <option value="6765">Miss</option>
+              <option value="6761">Mr.</option>
+              <option value="16059">Mr. and Dr.</option>
+              <option value="7761">Mr. and Mrs.</option>
+              <option value="6763">Mrs.</option>
+              <option value="16653">Mrs. and Mrs.</option>
+              <option value="6762">Ms.</option>
+              <option value="16652">Ms. and Ms.</option>
+              <option value="7984">Rev.</option>
+              <option value="10386">Rev. and Mrs.</option>
+
+            </select></td>
+
+        </tr>
+        <tr>
+          <td class="BBFieldCaption DonationCaptureFieldCaption">
+            <label for="PC1230_DonationCapture1_txtFirstName" id="PC1230_DonationCapture1_lblFirstName">First
+              name:</label>
+          </td>
+          <td class="BBFieldControlCell DonationCaptureFieldControlCell">
+            <input name="PC1230$DonationCapture1$txtFirstName" type="text" value="Colleen" maxlength="30"
+              id="PC1230_DonationCapture1_txtFirstName" class="BBFormTextbox DonationCaptureTextboxWide"></td>
+          <td id="PC1230_DonationCapture1_tdReqFirst"
+            class="BBFormRequiredFieldMarker DonationCaptureRequiredFieldMarker">
+            *</td>
+
+        </tr>
+
+        <tr>
+          <td class="BBFieldCaption DonationCaptureFieldCaption" id="td_LastName">
+            <label for="PC1230_DonationCapture1_txtLastName" id="PC1230_DonationCapture1_lblLastName">Last name:</label>
+          </td>
+          <td class="BBFieldControlCell DonationCaptureFieldControlCell">
+            <input name="PC1230$DonationCapture1$txtLastName" type="text" value="Conaty" maxlength="60"
+              id="PC1230_DonationCapture1_txtLastName" class="BBFormTextbox DonationCaptureTextboxWide">
+          </td>
+          <td class="BBFormRequiredFieldMarker DonationCaptureRequiredFieldMarker">
+            *</td>
+        </tr>
+
+
+        <tr>
+          <td id="PC1230_DonationCapture1_AddressCtl_lbl_country" class="BBFieldCaption DonationCaptureFieldCaption">
+            <label for="PC1230_DonationCapture1_AddressCtl_dd_Country"
+              id="PC1230_DonationCapture1_AddressCtl_lblCountry">Country:</label>
+          </td>
+
+          <td id="PC1230_DonationCapture1_AddressCtl_ctl_Country"
+            class="taLeft BBFieldControlCell DonationCaptureFieldControlCell">
+            <select name="PC1230$DonationCapture1$AddressCtl$dd_Country"
+              onchange="javascript:setTimeout('__doPostBack(\'PC1230$DonationCapture1$AddressCtl$dd_Country\',\'\')', 0)"
+              id="PC1230_DonationCapture1_AddressCtl_dd_Country" class="BBFormSelectList DonationCaptureSelectList">
+              <option value="AUSTRALIA">AUSTRALIA</option>
+              <option value="BRITISH VIRGIN ISLANDS">BRITISH VIRGIN ISLANDS</option>
+              <option value="CANADA">CANADA</option>
+              <option value="ENGLAND">ENGLAND</option>
+              <option value="NETHERLANDS">NETHERLANDS</option>
+              <option value="NEW ZEALAND">NEW ZEALAND</option>
+              <option value="UNITED KINGDOM">UNITED KINGDOM</option>
+              <option selected="selected" value="United States">United States</option>
+
+            </select>
+            <span id="PC1230_DonationCapture1_AddressCtl_ctl17" style="display:none;"></span></td>
+
+          <td id="PC1230_DonationCapture1_AddressCtl_lblreq_country"
+            class="BBFormRequiredFieldMarker DonationCaptureRequiredFieldMarker">
+            *
+          </td>
+
+        </tr>
+
+
+        <tr>
+          <td id="PC1230_DonationCapture1_AddressCtl_lbl_addrline" class="BBFieldCaption DonationCaptureFieldCaption">
+            <label for="PC1230_DonationCapture1_AddressCtl_tb_AddressLine"
+              id="PC1230_DonationCapture1_AddressCtl_lblAddressLine">Address lines:</label>
+          </td>
+
+          <td id="PC1230_DonationCapture1_AddressCtl_ctl_addrline"
+            class="taLeft BBFieldControlCell DonationCaptureFieldControlCell">
+            <textarea name="PC1230$DonationCapture1$AddressCtl$tb_AddressLine" rows="2" cols="20"
+              id="PC1230_DonationCapture1_AddressCtl_tb_AddressLine"
+              class="BBFormTextArea DonationCaptureTextArea"></textarea>
+            <span id="PC1230_DonationCapture1_AddressCtl_ctl03" style="display:none;"></span><span
+              id="PC1230_DonationCapture1_AddressCtl_ctl04" style="display:none;"></span></td>
+
+          <td id="PC1230_DonationCapture1_AddressCtl_lblreq_addrline" valign="top"
+            class="BBFormRequiredFieldMarker DonationCaptureRequiredFieldMarker">
+            *
+          </td>
+
+        </tr>
+
+        <tr>
+          <td id="PC1230_DonationCapture1_AddressCtl_lbl_cityUS" class="BBFieldCaption DonationCaptureFieldCaption">
+            <label for="PC1230_DonationCapture1_AddressCtl_tb_CityUS"
+              id="PC1230_DonationCapture1_AddressCtl_lblCityUS">City:</label>
+          </td>
+          <td id="PC1230_DonationCapture1_AddressCtl_ctl_cityUS"
+            class="taLeft BBFieldControlCell DonationCaptureFieldControlCell">
+            <input name="PC1230$DonationCapture1$AddressCtl$tb_CityUS" type="text" maxlength="50"
+              id="PC1230_DonationCapture1_AddressCtl_tb_CityUS" class="BBFormTextbox DonationCaptureTextbox">
+            <span id="PC1230_DonationCapture1_AddressCtl_ctl05" style="display:none;"></span></td>
+          <td id="PC1230_DonationCapture1_AddressCtl_lblreq_cityUS"
+            class="BBFormRequiredFieldMarker DonationCaptureRequiredFieldMarker">
+            *
+          </td>
+
+        </tr>
+        <tr>
+          <td id="PC1230_DonationCapture1_AddressCtl_lbl_stateUS" class="BBFieldCaption DonationCaptureFieldCaption">
+            <label for="PC1230_DonationCapture1_AddressCtl_dd_StateUS"
+              id="PC1230_DonationCapture1_AddressCtl_lblStateUS">State:</label>
+          </td>
+          <td id="PC1230_DonationCapture1_AddressCtl_ctl_stateUS"
+            class="taLeft BBFieldControlCell DonationCaptureFieldControlCell">
+            <select name="PC1230$DonationCapture1$AddressCtl$dd_StateUS"
+              id="PC1230_DonationCapture1_AddressCtl_dd_StateUS" class="BBFormSelectList DonationCaptureSelectList">
+              <option value="-1">&lt;Please Select&gt;</option>
+              <option value=".">.</option>
+              <option value="AA">AA</option>
+              <option value="ACT">ACT</option>
+              <option value="AE">AE</option>
+              <option value="AL">AL</option>
+              <option value="AK">AK</option>
+              <option value="AB">AB</option>
+              <option value="Amb">Amb</option>
+              <option value="AS">AS</option>
+              <option value="AP">AP</option>
+              <option value="AZ">AZ</option>
+              <option value="AR">AR</option>
+              <option value="BC">BC</option>
+              <option value="CA">CA</option>
+              <option value="CZ">CZ</option>
+              <option value="CO">CO</option>
+              <option value="CT">CT</option>
+              <option value="DDE">DDE</option>
+              <option value="DE">DE</option>
+              <option value="DC">DC</option>
+              <option value="FM">FM</option>
+              <option value="FL">FL</option>
+              <option value="FRA">FRA</option>
+              <option value="GA">GA</option>
+              <option value="GU">GU</option>
+              <option value="HI">HI</option>
+              <option value="ID">ID</option>
+              <option value="IL">IL</option>
+              <option value="IN">IN</option>
+              <option value="IA">IA</option>
+              <option value="KS">KS</option>
+              <option value="KY">KY</option>
+              <option value="LA">LA</option>
+              <option value="ME">ME</option>
+              <option value="MB">MB</option>
+              <option value="MH">MH</option>
+              <option value="MD">MD</option>
+              <option value="MA">MA</option>
+              <option value="MI">MI</option>
+              <option value="MN">MN</option>
+              <option value="MS">MS</option>
+              <option value="MO">MO</option>
+              <option value="MT">MT</option>
+              <option value="NE">NE</option>
+              <option value="NV">NV</option>
+              <option value="NB">NB</option>
+              <option value="NH">NH</option>
+              <option value="NJ">NJ</option>
+              <option value="NM">NM</option>
+              <option value="NY">NY</option>
+              <option value="NL">NL</option>
+              <option value="NC">NC</option>
+              <option value="ND">ND</option>
+              <option value="MP">MP</option>
+              <option value="NT">NT</option>
+              <option value="NS">NS</option>
+              <option value="NSW">NSW</option>
+              <option value="NU">NU</option>
+              <option value="OH">OH</option>
+              <option value="OK">OK</option>
+              <option value="ONT">ONT</option>
+              <option value="ON">ON</option>
+              <option value="OR">OR</option>
+              <option value="PW">PW</option>
+              <option value="PA">PA</option>
+              <option value="PE">PE</option>
+              <option value="PR">PR</option>
+              <option value="QC">QC</option>
+              <option value="RI">RI</option>
+              <option value="SK">SK</option>
+              <option value="SC">SC</option>
+              <option value="SD">SD</option>
+              <option value="TN">TN</option>
+              <option value="TX">TX</option>
+              <option value="UK">UK</option>
+              <option value="UT">UT</option>
+              <option value="VT">VT</option>
+              <option value="VIC">VIC</option>
+              <option value="VI">VI</option>
+              <option value="VA">VA</option>
+              <option value="WA">WA</option>
+              <option value="WV">WV</option>
+              <option value="WI">WI</option>
+              <option value="WY">WY</option>
+              <option value="YT">YT</option>
+
+            </select>
+            <span id="PC1230_DonationCapture1_AddressCtl_ctl06" style="display:none;"></span></td>
+          <td id="PC1230_DonationCapture1_AddressCtl_tdreq_stateUS">
+            <span id="PC1230_DonationCapture1_AddressCtl_lblreq_stateUS"
+              class="BBFormRequiredFieldMarker DonationCaptureRequiredFieldMarker">*</span>
+          </td>
+
+        </tr>
+        <tr>
+        </tr>
+        <tr>
+          <td id="PC1230_DonationCapture1_AddressCtl_lbl_zipUS" class="BBFieldCaption DonationCaptureFieldCaption">
+            <label for="PC1230_DonationCapture1_AddressCtl_tb_ZipUS"
+              id="PC1230_DonationCapture1_AddressCtl_lblZipUS">ZIP:</label></td>
+          <td id="PC1230_DonationCapture1_AddressCtl_ctl_zipUS"
+            class="taLeft BBFieldControlCell DonationCaptureFieldControlCell"><span
+              id="PC1230_DonationCapture1_AddressCtl_ctl22" style="display:none;"></span><input
+              name="PC1230$DonationCapture1$AddressCtl$tb_ZipUS" type="text" maxlength="10"
+              id="PC1230_DonationCapture1_AddressCtl_tb_ZipUS" class="BBFormTextbox DonationCaptureTextbox"></td>
+          <td id="PC1230_DonationCapture1_AddressCtl_lblreq_zipUS"
+            class="BBFormRequiredFieldMarker DonationCaptureRequiredFieldMarker">
+            *
+          </td>
+        </tr>
+
+
+
+
+
+
+
+        <tr>
+          <td class="BBFieldCaption DonationCaptureFieldCaption">
+            <label for="PC1230_DonationCapture1_txtPhone" id="PC1230_DonationCapture1_lblPhone">Phone:</label>
+          </td>
+          <td class="BBFieldControlCell DonationCaptureFieldControlCell">
+            <input name="PC1230$DonationCapture1$txtPhone" type="text" maxlength="20"
+              id="PC1230_DonationCapture1_txtPhone" class="BBFormTextbox DonationCaptureTextbox"></td>
+          <td id="PC1230_DonationCapture1_tdReqPhone"
+            class="BBFormRequiredFieldMarker DonationCaptureRequiredFieldMarker">
+            *</td>
+
+        </tr>
+        <tr id="PC1230_DonationCapture1_trSingleEmailContainer">
+          <td class="BBFieldCaption DonationCaptureFieldCaption">
+            <label for="PC1230_DonationCapture1_txtEmail" id="PC1230_DonationCapture1_lblEmail">Email:</label>
+          </td>
+          <td class="BBFieldControlCell DonationCaptureFieldControlCell">
+            <input name="PC1230$DonationCapture1$txtEmail" type="text" maxlength="100"
+              id="PC1230_DonationCapture1_txtEmail" class="BBFormTextbox DonationCaptureTextboxWide"><span
+              id="PC1230_DonationCapture1_ctl54" style="display:none;"></span><span id="PC1230_DonationCapture1_ctl68"
+              style="display:none;"></span></td>
+          <td id="PC1230_DonationCapture1_tdEmailReq"
+            class="BBFormRequiredFieldMarker DonationCaptureRequiredFieldMarker">*</td>
+        </tr>
+
+        <tr id="PC1230_DonationCapture1_trConfirmEmailContainer">
+          <td class="BBFieldCaption DonationCaptureFieldCaption">
+            <label for="PC1230_DonationCapture1_txtConfirmEmail" id="PC1230_DonationCapture1_lblConfirmEmail">Confirm
+              Email:</label>
+          </td>
+          <td class="BBFieldControlCell DonationCaptureFieldControlCell">
+            <input name="PC1230$DonationCapture1$txtConfirmEmail" type="text" maxlength="100"
+              id="PC1230_DonationCapture1_txtConfirmEmail" class="BBFormTextbox DonationCaptureTextboxWide"
+              onpaste="return false"><span id="PC1230_DonationCapture1_ctl49" style="display:none;"></span></td>
+          <td id="PC1230_DonationCapture1_tdConfirmEmailReq"
+            class="BBFormRequiredFieldMarker DonationCaptureRequiredFieldMarker">*</td>
+        </tr>
+
+
+
+      </tbody>
+
+
+
+      <tbody id="PC1230_DonationCapture1_tbdyPaymentInfo" class="BBFormTable DonationCaptureFormTable"
+        style="border: solid 1 black">
+        <tr>
+          <td class="BBListingHeading DonationCaptureListingHeading" colspan="3">
+            <span id="PC1230_DonationCapture1_lblPayment">Payment Information</span>
+          </td>
+        </tr>
+
+
+
+
+        <tr>
+          <td class="BBFieldCaption DonationCaptureFieldCaption">
+            <label for="PC1230_DonationCapture1_txtCardholder"
+              id="PC1230_DonationCapture1_lblCardHoldersName">Cardholder's Name:</label>
+          </td>
+          <td class="BBFieldControlCell DonationCaptureFieldControlCell">
+            <input name="PC1230$DonationCapture1$txtCardholder" type="text" maxlength="60"
+              id="PC1230_DonationCapture1_txtCardholder" class="BBFormTextbox DonationCaptureTextboxWide"></td>
+          <td class="BBFormRequiredFieldMarker DonationCaptureRequiredFieldMarker">
+            *</td>
+        </tr>
+        <tr>
+          <td class="BBFieldCaption DonationCaptureFieldCaption">
+            <label for="PC1230_DonationCapture1_txtCardNumber" id="PC1230_DonationCapture1_lblCCNumber">Credit Card
+              Number:</label>
+          </td>
+          <td class="BBFieldControlCell DonationCaptureFieldControlCell">
+            <input name="PC1230$DonationCapture1$txtCardNumber" type="text" maxlength="20"
+              id="PC1230_DonationCapture1_txtCardNumber" class="BBFormTextbox DonationCaptureTextboxWide"
+              autocomplete="off"></td>
+          <td class="BBFormRequiredFieldMarker DonationCaptureRequiredFieldMarker">
+            *</td>
+        </tr>
+        <tr>
+          <td class="BBFieldCaption DonationCaptureFieldCaption">
+            <label for="PC1230_DonationCapture1_cboCardType" id="PC1230_DonationCapture1_lblCCType">Card Type:</label>
+          </td>
+          <td class="BBFieldControlCell DonationCaptureFieldControlCell">
+            <select name="PC1230$DonationCapture1$cboCardType" id="PC1230_DonationCapture1_cboCardType"
+              class="BBFormSelectList DonationCaptureSelectList">
+              <option value=""></option>
+              <option value="c4a56513-9fdb-44c5-9b19-e617f2596107">American Express</option>
+              <option value="bf0ed898-ab0c-4374-9cef-1e66b09e816d">Discover</option>
+              <option value="b34832f7-8a95-47fa-9c43-bc8682562ea5">Mastercard</option>
+              <option value="5963a708-fc7f-48af-952f-16d574c4b833">Visa</option>
+
+            </select>&nbsp;
+          </td>
+          <td class="BBFormRequiredFieldMarker DonationCaptureRequiredFieldMarker">
+            *</td>
+        </tr>
+
+        <tr>
+          <td class="BBFieldCaption DonationCaptureFieldCaption" id="td_ExpiryLbl">
+            <label for="PC1230_DonationCapture1_cboMonth" id="PC1230_DonationCapture1_lblExpiryLbl">Card
+              Expiration:</label>
+          </td>
+          <td class="wsNowrap BBFieldControlCell sDonationCaptureFieldControlCell">
+            <table style="margin-left: -3px">
+              <tbody>
+                <tr>
+                  <td>
+                    <select name="PC1230$DonationCapture1$cboMonth" id="PC1230_DonationCapture1_cboMonth"
+                      class="BBFormSelectList DonationCaptureSelectListNarrow">
+                      <option value=""></option>
+                      <option value="1">01</option>
+                      <option value="2">02</option>
+                      <option value="3">03</option>
+                      <option value="4">04</option>
+                      <option value="5">05</option>
+                      <option value="6">06</option>
+                      <option value="7">07</option>
+                      <option value="8">08</option>
+                      <option value="9">09</option>
+                      <option value="10">10</option>
+                      <option value="11">11</option>
+                      <option value="12">12</option>
+
+                    </select><label for="PC1230_DonationCapture1_cboYear"
+                      id="PC1230_DonationCapture1_lblTxtYear">&nbsp;/</label>
+                  </td>
+                  <td>
+                    <select name="PC1230$DonationCapture1$cboYear" id="PC1230_DonationCapture1_cboYear"
+                      class="BBFormSelectList DonationCaptureSelectListNarrow">
+                      <option value=""></option>
+                      <option value="2019">2019</option>
+                      <option value="2020">2020</option>
+                      <option value="2021">2021</option>
+                      <option value="2022">2022</option>
+                      <option value="2023">2023</option>
+                      <option value="2024">2024</option>
+                      <option value="2025">2025</option>
+                      <option value="2026">2026</option>
+                      <option value="2027">2027</option>
+                      <option value="2028">2028</option>
+                      <option value="2029">2029</option>
+                      <option value="2030">2030</option>
+                      <option value="2031">2031</option>
+                      <option value="2032">2032</option>
+                      <option value="2033">2033</option>
+                      <option value="2034">2034</option>
+                      <option value="2035">2035</option>
+                      <option value="2036">2036</option>
+                      <option value="2037">2037</option>
+                      <option value="2038">2038</option>
+
+                    </select>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </td>
+          <td class="BBFormRequiredFieldMarker DonationCaptureRequiredFieldMarker">
+            *</td>
+        </tr>
+
+        <tr>
+          <td class="BBFieldCaption DonationCaptureFieldCaption">
+            <label for="PC1230_DonationCapture1_txtCSC" id="PC1230_DonationCapture1_lblSecCode">Card Security
+              Code:</label>
+          </td>
+          <td class="BBFieldControlCell DonationCaptureFieldControlCell">
+            <input name="PC1230$DonationCapture1$txtCSC" type="password" maxlength="4"
+              id="PC1230_DonationCapture1_txtCSC" class="BBFormTextbox DonationCaptureTextboxNarrow"
+              autocomplete="off"><a id="PC1230_DonationCapture1_lnkcsc_help"
+              title="Display help for Card Security Codes in another window" class="BBLinkHelpIcon"
+              href="javascript:DonationCSCHelp()"><img src="images/help-32_1.gif" cssclass="BBLinkHelpIconImg"
+                height="23" style="vertical-align:bottom; border-style:none" alt="help" title="Help"></a></td>
+          <td class="BBFormRequiredFieldMarker DonationCaptureRequiredFieldMarker">
+            *</td>
+        </tr>
+
+
+
+      </tbody>
+      <tbody id="PC1230_DonationCapture1_tbdyMatchingGifts" class="BBFormTable DonationCaptureFormTable">
+        <tr>
+          <td class="BBListingHeading DonationCaptureListingHeading" colspan="3">
+            <span id="PC1230_DonationCapture1_lblMatchingGifts">Matching Gifts</span>
+          </td>
+        </tr>
+
+        <tr>
+          <td class="BBFieldCaption DonationCaptureFieldCaption">
+          </td>
+          <td class="wsNowrap BBFieldControlCell DonationCaptureFieldControlCell">
+            <table style="margin-left: -3px">
+              <tbody>
+                <tr>
+                  <td>
+                    <span class="BBFieldCheckboxCaption DonationFieldCheckboxCaption"><input
+                        id="PC1230_DonationCapture1_chkMGCompany" type="checkbox"
+                        name="PC1230$DonationCapture1$chkMGCompany" onclick="ShowMGCompany();"><label
+                        for="PC1230_DonationCapture1_chkMGCompany">My company will match my gift.</label></span>
+                  </td>
+                  <td class="wsNowrap">
+
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </td>
+        </tr>
+        <tr id="PC1230_DonationCapture1_tr_MGCompany" style="display:none;">
+          <td class="BBFieldCaption DonationCaptureFieldCaption">
+            <label for="PC1230_DonationCapture1_MGCompany" id="PC1230_DonationCapture1_lblMGCompany">Company:</label>
+          </td>
+          <td class="BBFieldControlCell DonationCaptureFieldControlCell">
+            <input name="PC1230$DonationCapture1$MGCompany" type="text" maxlength="60"
+              id="PC1230_DonationCapture1_MGCompany" class="BBFormTextbox DonationCaptureTextboxWide">
+          </td>
+          <td class="BBFormRequiredFieldMarker DonationCaptureRequiredFieldMarker">
+            *</td>
+        </tr>
+
+      </tbody>
+
+      <tbody id="PC1230_DonationCapture1_tbCaptcha" class="BBFormTable DonationCaptureFormTable">
+        <tr>
+          <td class="BBListingHeading DonationCaptureListingHeading" colspan="3">
+            <span id="PC1230_DonationCapture1_lblCaptchaHeading">Additional Security</span>
+          </td>
+        </tr>
+        <tr>
+          <td class="DonationCaptchaInformation" colspan="3">
+            <span id="PC1230_DonationCapture1_lblCaptchaInfo">This is a security measure to help prevent fraud.</span>
+          </td>
+        </tr>
+        <tr>
+          <td colspan="2">
+
+            <style type="text/css">
+              /* New Classes */
+              .Captcha {
+                margin: 0px;
+              }
+
+              ./images/help-32_1.gif .CaptchaCaption {
+                float: left;
+                clear: left;
+                width: 125px;
+                text-align: right;
+                padding-right: 5px;
+                padding-left: 10px;
+              }
+
+              .CaptchaControlCell {
+                margin-left: 140px;
+                clear: right;
+                margin-top: 3px;
+              }
+
+              .CaptchaResponse {
+                width: 296px;
+              }
+
+              .CaptchaImageContainer {
+                border: 1px solid #AAAAAA;
+                text-align: center;
+              }
+
+              .CaptchaImageContainerNew {
+
+                text-align: center;
+              }
+
+              .CaptchaActionLinkContainer {
+                text-align: right;
+              }
+
+              /* Do NOT Include In Stylesheet Editor */
+              /* We do not want clients styling "reCaptcha" name invisible for licensing reasons */
+              .CaptchaName {
+                text-align: right;
+                color: #999999;
+                font-size: 85%;
+              }
+            </style>
+            <input type="hidden" name="PC1230$DonationCapture1$myCaptcha$hidChallenge"
+              id="PC1230_DonationCapture1_myCaptcha_hidChallenge">
+            <input type="hidden" name="PC1230$DonationCapture1$myCaptcha$hidCaptchaVersion"
+              id="PC1230_DonationCapture1_myCaptcha_hidCaptchaVersion" value="V2">
+            <span id="PC1230_DonationCapture1_myCaptcha_lblNoCaptcha" style="display:none;">Unable to load the reCAPTCHA
+              image. The public key (6LdGiikUAAAAAHg-EreKwzfOERZgFqMs8DaAHM4k) might be invalid for this domain.</span>
+            <div class="DonationCaptcha">
+              <dl id="PC1230_DonationCapture1_myCaptcha_dlYesCaptcha" style="">
+                <dt></dt>
+                <dd class="DonationCaptchaControlCell">
+                  <div class="CaptchaName">
+                    reCAPTCHA<sup>TM</sup></div>
+                  <div id="PC1230_DonationCapture1_myCaptcha_pnlImageContainer" class="CaptchaImageContainerNew">
+                    <div style="width: 304px; height: 78px;">
+                      <div><iframe
+                          src="https://www.google.com/recaptcha/api2/anchor?ar=1&amp;k=6LdGiikUAAAAAHg-EreKwzfOERZgFqMs8DaAHM4k&amp;co=aHR0cHM6Ly9pbnNpZGUud2ludGVydGh1ci5vcmc6NDQz&amp;hl=en&amp;v=0bBqi43w2fj-Lg1N3qzsqHNu&amp;theme=light&amp;size=normal&amp;cb=lc5mpesya6b8"
+                          width="304" height="78" role="presentation" name="a-7p2z3321axrr" frameborder="0"
+                          scrolling="no"
+                          sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox"></iframe>
+                      </div><textarea id="g-recaptcha-response" name="g-recaptcha-response" class="g-recaptcha-response"
+                        style="width: 250px; height: 40px; border: 1px solid rgb(193, 193, 193); margin: 10px 25px; padding: 0px; resize: none; display: none;"></textarea>
+                    </div>
+                  </div>
+                </dd>
+                <dt id="PC1230_DonationCapture1_myCaptcha_dtMain" class="<%=CssClassCaption%>" style="display:none;">
+                  <label for="PC1230_DonationCapture1_myCaptcha_txtResponse"
+                    id="PC1230_DonationCapture1_myCaptcha_lblImage" class="recaptcha_only_if_image">Enter the
+                    text:</label> <label for="PC1230_DonationCapture1_myCaptcha_txtResponse"
+                    id="PC1230_DonationCapture1_myCaptcha_lblAudio" class="recaptcha_only_if_audio">Type what you
+                    hear:</label> </dt>
+                <dd id="PC1230_DonationCapture1_myCaptcha_ddResponse" class="<%=CssClassControlCell %>"
+                  style="display:none;">
+
+                  <input name="PC1230$DonationCapture1$myCaptcha$txtResponse" type="text"
+                    id="PC1230_DonationCapture1_myCaptcha_txtResponse" class=" BBFormTextbox DonationCaptureTextboxWide"
+                    autocomplete="false">
+                  <span class="BBFormRequiredFieldMarker DonationCaptureRequiredFieldMarker">*</span>
+                </dd>
+                <dt id="PC1230_DonationCapture1_myCaptcha_dtSub" style="display:none;"></dt>
+                <dd id="PC1230_DonationCapture1_myCaptcha_ddLinks" class="<%=CssClassControlCell %>"
+                  style="display:none;">
+                  <div class="DonationCaptchaActionLinkContainer">
+
+                    <a href="https://inside.winterthur.org/page.aspx?pid=298"
+                      id="PC1230_DonationCapture1_myCaptcha_lnkReload">
+                      Get a new challenge</a> &nbsp;|&nbsp; <a href="https://inside.winterthur.org/page.aspx?pid=298"
+                      id="PC1230_DonationCapture1_myCaptcha_lnkGetAudio" class=" recaptcha_only_if_image">
+                      Get an audio challenge</a> <a href="https://inside.winterthur.org/page.aspx?pid=298"
+                      id="PC1230_DonationCapture1_myCaptcha_lnkGetImage" class=" recaptcha_only_if_audio">
+                      Get a visual challenge</a>
+                  </div>
+                </dd>
+
+              </dl>
+            </div>
+
+          </td>
+        </tr>
+      </tbody>
+
+
+      <tbody>
+        <tr>
+          <td class="BBListingHeading DonationListingHeading" colspan="3">
+            <span id="PC1230_lblTributeHeading">Honor or Tribute Information</span>
+          </td>
+        </tr>
+        <tr>
+          <td class="BBMessage DonationMessage" colspan="3">
+            <span id="PC1230_lblTributeSectionDescription"></span>
+          </td>
+        </tr>
+        <tr id="PC1230_trTributeName" style="display:none;">
+          <td id="PC1230_tdTribNameCaption" class="BBFieldCaption DonationFieldCaption">
+            <label for="PC1230_txtTribute" id="PC1230_lblName">Name:</label>
+          </td>
+          <td id="PC1230_tdTribNameControls" class="BBFieldControlCell DonationFieldControlCell">
+            <input name="PC1230$txtTribute" type="text" maxlength="50" id="PC1230_txtTribute"
+              class="BBFormTextbox DonationTextboxWide">
+
+          </td>
+          <td id="PC1230_tdTributeRequiredMarker" class="BBFormRequiredFieldMarker DonationRequiredFieldMarker"
+            style="visibility:hidden;">
+            *
+          </td>
+        </tr>
+        <tr id="PC1230_trTributeFirstName" style="display:;">
+          <td id="PC1230_tdTributeFirstName" class="BBFieldCaption DonationFieldCaption">
+            <label for="PC1230_txtTributeFirstName" id="PC1230_lblTributeFirstName">First name:</label>
+          </td>
+          <td id="PC1230_tdTributeFirstNameControls" class="BBFieldControlCell DonationFieldControlCell">
+            <input name="PC1230$txtTributeFirstName" type="text" maxlength="50" id="PC1230_txtTributeFirstName"
+              class="BBFormTextbox DonationTextboxWide">
+          </td>
+        </tr>
+        <tr id="PC1230_trTributeLastName" style="display:;">
+          <td id="PC1230_tdTributeLastName" class="BBFieldCaption DonationFieldCaption">
+            <label for="PC1230_txtTributeLastName" id="PC1230_lblTributeLastName">Last name:</label>
+          </td>
+          <td id="PC1230_tdTributeLastNameControls" class="BBFieldControlCell DonationFieldControlCell">
+            <input name="PC1230$txtTributeLastName" type="text" maxlength="50" id="PC1230_txtTributeLastName"
+              class="BBFormTextbox DonationTextboxWide"
+              onkeyup="txtTributeName_KeyUp(this, 'PC1230_tdTributeTypeRequiredMarker');">
+            <span id="PC1230_ReqFldValidatorTribName" style="display:none;"></span></td>
+          <td id="PC1230_tdTributeLastNameRequiredMarker" class="BBFormRequiredFieldMarker DonationRequiredFieldMarker"
+            style="visibility:hidden;">
+            *
+          </td>
+        </tr>
+        <tr id="PC1230_trTributeDesc">
+          <td id="PC1230_tdTribDescCaption" class="BBFieldCaption DonationFieldCaption">
+            <label for="PC1230_ddlTribute" id="PC1230_lblType">Type:</label>
+          </td>
+          <td id="PC1230_tdTribDescControls" class="BBFieldControlCell DonationFieldControlCell"
+            style="text-align: left;">
+            <select name="PC1230$ddlTribute" id="PC1230_ddlTribute" class="BBFormSelectList DonationSelectList"
+              onchange="ddlTribute_OnChange(this)">
+              <option selected="selected" value="0"></option>
+              <option value="861">In honor of</option>
+              <option value="860">In Memory of</option>
+
+            </select>
+
+          </td>
+          <td id="PC1230_tdTributeTypeRequiredMarker" class="BBFormRequiredFieldMarker DonationRequiredFieldMarker"
+            style="visibility: hidden">
+            *
+          </td>
+        </tr>
+        <tr id="PC1230_trTributeDesc2">
+          <td id="PC1230_tdTrib2Caption" class="BBFieldCaption DonationFieldCaption">
+            <label for="PC1230_txtTributeDescription" id="PC1230_lblDescription">Description:</label>
+          </td>
+          <td id="PC1230_tdTrib2Controls" class="BBFieldControlCell DonationFieldControlCell" style="text-align: left;">
+            <input name="PC1230$txtTributeDescription" type="text" maxlength="50" id="PC1230_txtTributeDescription"
+              disabled="disabled" class="aspNetDisabled BBFormTextbox DonationTextboxWide">
+
+            <span id="PC1230_ReqFldValidatorTribDesc" style="display:none;"></span></td>
+          <td id="PC1230_tdTributeDescRequiredMarker" class="BBFormRequiredFieldMarker DonationRequiredFieldMarker"
+            style="visibility:hidden;">
+            *
+          </td>
+        </tr>
+
+        <tr>
+          <td class="BBFieldCaption DonationFieldCaption">
+          </td>
+          <td class="w100p BBFieldControlCell DonationCaptureFieldControlCell">
+            <span class="BBFieldCheckboxCaption DonationFieldCheckboxCaption"><input id="PC1230_chkAcknowledge"
+                type="checkbox" name="PC1230$chkAcknowledge"
+                onclick="javascript:setTimeout('__doPostBack(\'PC1230$chkAcknowledge\',\'\')', 0)"><label
+                for="PC1230_chkAcknowledge">Mail a letter on my behalf.</label></span>
+          </td>
+          <td id="PC1230_tdTributeChkAcknowledgeRequiredMarker"
+            class="BBFormRequiredFieldMarker DonationRequiredFieldMarker" style="visibility: hidden">
+            *
+          </td>
+
+        </tr>
+
+        <tr>
+          <td class="BBFieldControlCell DonationFieldControlCell DonationVerificationCell" colspan="3">
+
+          </td>
+        </tr>
+        <tr>
+          <td class="BBFormButtonCell DonationButtonCell" colspan="3">
+
+            <input type="submit" name="PC1230$btnNext" value="Donate Now"
+              onclick="(function(btn){var bDisableMe=true;__doPostBack('PC1230$btnNext','');btn.disabled=bDisableMe;})(this);return false;"
+              id="PC1230_btnNext" class="BBFormSubmitButton DonationSubmitButton">
+          </td>
+        </tr>
+
+      </tbody>
+    </table>
+
+    <div id="mpeDonationConsentPopup_backgroundElement" class="BBModalBackground"
+      style="display: none; position: fixed; left: 0px; top: 0px;"></div>
+  </div>
+
+
+</div>

@@ -502,7 +502,14 @@ td.wsNowrap {
 
 .BBMessage {
   /* System Defaults */
-  font-style: italic;
+  // font-style: italic;
+  display: block;
+  font-size: $font-size-sm;
+  font-weight: $font-weight-light;
+  padding: map-get($map: $spacers, $key: 4);
+  margin-top: map-get($map: $spacers, $key: 4);
+  background: $primary;
+  color: $white;
 }
 
 .BBNameLink:active {

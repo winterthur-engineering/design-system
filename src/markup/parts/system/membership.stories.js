@@ -1,4 +1,5 @@
 import "../../../styles/index.scss";
+
 import welcomeForm from "./membership-welcome.html";
 import joinForm from "./membership-join.html";
 import changeableForm from "./membership-changeable.html";

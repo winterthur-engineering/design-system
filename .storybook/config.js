@@ -7,10 +7,4 @@ addParameters({
   }
 });
 
-configure(
-  [
-    require.context("../styles", true, /\.stories\.(js|mdx)$/),
-    require.context("../markup", true, /\.stories\.(js|mdx)$/)
-  ],
-  module
-);
+configure([require.context("../src", true, /\.stories\.(js|mdx)$/)], module);

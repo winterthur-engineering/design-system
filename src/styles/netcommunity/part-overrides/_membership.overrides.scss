@@ -81,7 +81,14 @@
 }
 
 .BBMembershipFieldCheckboxCaption {
-  margin: map-get($map: $spacers, $key: 3) 0;
+  display: flex;
+  width: 100%;
+  padding: map-get($map: $spacers, $key: 3) map-get($map: $spacers, $key: 5);
+  margin: map-get($map: $spacers, $key: 3) 0 map-get($map: $spacers, $key: 5) 0;
+  @include make-custom-checkbox;
+  border-radius: 4px;
+  border: 1px solid $primary;
+  background: rgba($primary, 0.2);
 }
 
 .BBMembershipControlCell {

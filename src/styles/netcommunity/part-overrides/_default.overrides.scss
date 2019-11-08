@@ -364,7 +364,14 @@ td.wsNowrap {
 
   & > select {
     @extend .form-control;
+    @extend .custom-select;
     max-width: $input-max-width;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+
+    &::-ms-expand {
+      display: none;
+    }
   }
 
   .BBFieldCheckboxCaption {

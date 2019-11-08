@@ -15,7 +15,7 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@babel/core": "^7.6.4",
+    "@babel/core": "^7.7.2",
     "@fortawesome/fontawesome-free": "^5.11.2",
     "@storybook/addon-docs": "^5.2.5",
     "@storybook/addon-storysource": "^5.2.5",
@@ -26,7 +26,7 @@
     "css-loader": "^3.2.0",
     "html-loader": "^0.5.5",
     "node-sass": "^4.13.0",
-    "npm-check-updates": "^3.2.0",
+    "npm-check-updates": "^3.2.1",
     "sass-loader": "^8.0.0",
     "style-loader": "^1.0.0"
   }

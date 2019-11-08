@@ -1,6 +1,6 @@
 import "../../../../styles/index.scss";
 
-export default { title: "Components|Dynamic/Main Content" };
+export default { title: "Parts|Content/Description" };
 
 export const pageTitleAndDescription = () => `
 <section class="container">

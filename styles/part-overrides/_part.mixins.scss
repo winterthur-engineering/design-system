@@ -27,7 +27,7 @@
 }
 
 @mixin make-form-container {
-  max-width: 540px;
+  max-width: 70ch;
   margin: 0 auto;
   padding: 0 map-get($map: $spacers, $key: 3);
   display: block;

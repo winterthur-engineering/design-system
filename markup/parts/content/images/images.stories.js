@@ -1,6 +1,6 @@
 import "../../../../styles/index.scss";
 
-export default { title: "Components|Dynamic/Image Content" };
+export default { title: "Parts|Content/Image" };
 
 export const fullWidthImage = () => `
 <section class="container">

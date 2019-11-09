@@ -23,7 +23,13 @@
 - anatomy of a page
 - folder organization
 
+#### Layouts
+
+- How to create a new layout
+
 #### Templates
+
+- How to create a template
 
 #### Parts
 

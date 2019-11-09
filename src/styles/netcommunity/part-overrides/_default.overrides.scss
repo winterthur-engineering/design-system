@@ -423,20 +423,17 @@ td.wsNowrap {
 }
 
 .BBFormTable {
-  /* System Defaults */
-  // border: 1pt solid buttonface;
-  // those defaults are stupid as hell... use these instead
+  @extend .container;
+  display: block;
 
-  width: 100%;
-  margin: 0;
-
-  // make sure that every table is 100% width because
-  // the dum-dums at netcommunity decided to use tables
-  // as form control containers
-
-  @include make-form-container;
   table {
-    width: 100% !important;
+    width: 100%;
+  }
+
+  & > tbody {
+    max-width: 75ch;
+    margin: 0 auto;
+    display: block;
   }
 }
 

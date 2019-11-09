@@ -363,15 +363,7 @@ td.wsNowrap {
   }
 
   & > select {
-    @extend .form-control;
-    @extend .custom-select;
-    max-width: $input-max-width;
-    -moz-appearance: none;
-    -webkit-appearance: none;
-
-    &::-ms-expand {
-      display: none;
-    }
+    @include winterthur-make-custom-select;
   }
 
   .BBFieldCheckboxCaption {
@@ -385,10 +377,7 @@ td.wsNowrap {
 }
 
 .BBFormButtonRow {
-  display: block;
-  padding-top: map-get($map: $spacers, $key: 4);
-  border-top: 1px solid $winterthur-color-gray-1;
-  margin: map-get($map: $spacers, $key: 4) auto;
+  @include winterthur-make-footer-section;
 }
 
 .BBFormCheckbox {
@@ -425,9 +414,7 @@ td.wsNowrap {
 }
 
 .BBFormSelectList {
-  /* System Defaults */
-  background-color: White;
-  width: auto;
+  @include winterthur-make-custom-select;
 }
 
 .BBFormSubmitButton {

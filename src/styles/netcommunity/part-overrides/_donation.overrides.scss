@@ -135,8 +135,12 @@
 .DonationFieldCheckboxCaption {
 }
 
-.DonationCaptureFieldControlCell {
+.DonationCaptureFieldControlCell,
+.sDonationCaptureFieldControlCell {
   margin-bottom: map-get($map: $spacers, $key: 2);
+}
+.sDonationCaptureFieldControlCell {
+  margin-left: 0 !important;
 }
 
 .DonationFieldControlCell {
@@ -150,8 +154,8 @@
 }
 
 .DonationButtonCell {
-  /* System Defaults */
-  text-align: right;
+  text-align: left;
+  @include winterthur-make-footer-section;
 }
 
 .DonationCaptureReadonlyValue {

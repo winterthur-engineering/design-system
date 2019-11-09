@@ -1,0 +1,17 @@
+.BBLinkHelpIcon {
+  position: relative;
+  display: block;
+  height: 30px;
+  width: 30px;
+  margin-top: map-get($map: $spacers, $key: 3);
+
+  &:after {
+    content: "Click here for some help";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 100%;
+    line-height: 30px;
+    white-space: nowrap;
+  }
+}

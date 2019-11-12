@@ -207,30 +207,57 @@
 
 .DonationTextArea {
   /* System Defaults */
+  width: initial;
+
+  // Overrides
   max-width: $input-max-width;
 }
 
 .DonationCaptureTextbox {
+  /* System Defaults */
+  width: initial;
+
+  // Overrides
   max-width: $input-max-width;
 }
 
 .DonationCaptureTextboxNarrow {
+  /* System Defaults */
+  width: initial;
+
+  // Overrides
   max-width: $input-max-width;
 }
 
 .DonationCaptureTextboxWide {
+  /* System Defaults */
+  width: initial;
+
+  // Overrides
   max-width: $input-max-width;
 }
 
 .DonationTextbox {
+  /* System Defaults */
+  width: initial;
+
+  // Overrides
   max-width: $input-max-width;
 }
 
 .DonationTextboxNarrow {
+  /* System Defaults */
+  width: initial;
+
+  // Overrides
   max-width: $input-max-width;
 }
 
 .DonationTextboxWide {
+  /* System Defaults */
+  width: initial;
+
+  // Overrides
   max-width: $input-max-width;
 }
 
@@ -247,6 +274,12 @@
 }
 
 .DonationCaptureListingHeading {
+  /* System Defaults */
+  background-color: transparent;
+  color: initial;
+  height: initial;
+  text-align: initial;
+
   @extend .h3;
   width: 100%;
 

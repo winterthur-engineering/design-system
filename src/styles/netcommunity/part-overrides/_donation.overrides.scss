@@ -124,6 +124,8 @@
 
 .DonationFieldCaption,
 .DonationCaptureFieldCaption {
+  /* System Defaults */
+  background: transparent;
   width: 180px;
 }
 
@@ -187,6 +189,7 @@
 }
 
 .DonationSubmitButton {
+  @extend .btn-primary;
 }
 
 .DonationCaptureFormTable {
@@ -260,6 +263,12 @@
 }
 
 .DonationListingHeading {
+  /* System Defaults */
+  background-color: transparent;
+  color: initial;
+  height: initial;
+  text-align: left;
+
   @include winterthur-create-section-heading;
 }
 

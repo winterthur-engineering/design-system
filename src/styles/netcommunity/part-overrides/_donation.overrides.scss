@@ -63,6 +63,11 @@
   /* System Defaults */
   font-weight: bold;
   width: 400px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
 }
 
 .DonationCaptcha {
@@ -133,6 +138,7 @@
 }
 
 .DonationFieldCheckboxCaption {
+  @include make-custom-checkbox;
 }
 
 .DonationCaptureFieldControlCell,
@@ -184,12 +190,12 @@
 }
 
 .DonationCaptureFormTable {
-  /* System Defaults */
-  width: 100%;
-  padding: 0;
-}
+  padding-left: 0 !important;
+  padding-right: 0 !important;
 
-.DonationFormTable {
+  & > tr {
+    @extend .row;
+  }
 }
 
 .DonationCaptureTextArea {
@@ -239,6 +245,8 @@
 
 .DonationCaptureListingHeading {
   @extend .h3;
+  width: 100%;
+
   & > span {
     display: block;
     width: 100%;
@@ -252,20 +260,7 @@
 }
 
 .DonationListingHeading {
-  @extend .h2;
-  & > span {
-    @extend .text-primary;
-    width: 100%;
-    display: block;
-  }
-
-  & > * {
-    display: block;
-    margin-top: map-get($map: $spacers, $key: 4);
-    margin-bottom: map-get($map: $spacers, $key: 2);
-    padding-bottom: map-get($map: $spacers, $key: 2);
-    border-bottom: 1px solid rgba($primary, 0.3);
-  }
+  @include winterthur-create-section-heading;
 }
 
 .DonationGridOddRow {

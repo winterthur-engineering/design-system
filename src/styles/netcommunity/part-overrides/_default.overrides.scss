@@ -369,6 +369,10 @@ td.wsNowrap {
   .BBFieldCheckboxCaption {
     @include make-custom-checkbox;
   }
+
+  & > input {
+    @extend .form-control;
+  }
 }
 
 .BBFormButtonCell {
@@ -418,7 +422,6 @@ td.wsNowrap {
 }
 
 .BBFormSubmitButton {
-  @extend .btn-primary;
   @extend .btn;
 }
 
@@ -434,6 +437,7 @@ td.wsNowrap {
     max-width: 75ch;
     margin: 0 auto;
     display: block;
+    width: 100%;
   }
 }
 
@@ -463,14 +467,7 @@ td.wsNowrap {
 }
 
 .BBListingHeading {
-  @extend .h2;
-  width: 100%;
-
-  & > span {
-    display: block;
-    width: 100%;
-    color: $primary;
-  }
+  @include winterthur-create-section-heading;
 }
 
 .BBListingItem {

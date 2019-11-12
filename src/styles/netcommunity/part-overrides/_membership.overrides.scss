@@ -56,6 +56,7 @@
 }
 
 .BBMembershipCardFieldsetLegend {
+  @include winterthur-create-section-heading;
 }
 
 .BBMembershipSubCategoryFieldCaption {
@@ -121,15 +122,21 @@
 }
 
 .BBMembershipBackButton {
+  @extend .btn-outline-primary;
 }
 
 .BBMembershipNextButton {
+  @extend .btn-primary;
 }
 
 .BBMembershipSubmitButton {
+  @extend .btn-primary;
 }
 
 .BBMembershipFormTable {
+  & > tbody > tr {
+    @extend .row;
+  }
 }
 
 .BBMembershipTextArea {
@@ -146,6 +153,7 @@
 }
 
 .BBMembershipFormTitle {
+  @include winterthur-create-section-heading;
 }
 
 .BBMembershipValidationSummary {
@@ -179,3 +187,17 @@
 }
 
 /***** End Membership Form styles *****/
+
+#MembershipPayTable {
+  @extend .BBFormTable;
+
+  .DonationCaptureFormTable {
+    & > tr {
+      @extend .row;
+
+      & > td {
+        @extend .col;
+      }
+    }
+  }
+}

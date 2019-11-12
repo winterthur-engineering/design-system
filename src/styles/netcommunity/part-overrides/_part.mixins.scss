@@ -52,3 +52,23 @@
   border-top: 1px solid $winterthur-color-gray-1;
   margin: map-get($map: $spacers, $key: 4) auto;
 }
+
+@mixin winterthur-create-section-heading {
+  @extend .h2;
+  width: 100%;
+  text-align: left;
+
+  & > span {
+    @extend .text-primary;
+    width: 100%;
+    display: block;
+  }
+
+  & > * {
+    display: block;
+    margin-top: map-get($map: $spacers, $key: 4);
+    margin-bottom: map-get($map: $spacers, $key: 2);
+    padding-bottom: map-get($map: $spacers, $key: 2);
+    border-bottom: 1px solid rgba($primary, 0.3);
+  }
+}

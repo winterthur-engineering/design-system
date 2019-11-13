@@ -1,6 +1,6 @@
-import "../../../../styles/index.scss";
+import "../../../styles/index.scss";
 
-export default { title: "Parts|Content/Image" };
+export default { title: "Content|Image" };
 
 export const fullWidthImage = () => `
 <section class="container">

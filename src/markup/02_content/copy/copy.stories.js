@@ -1,6 +1,6 @@
-import "../../../../styles/index.scss";
+import "../../../styles/index.scss";
 
-export default { title: "Parts|Content/Description" };
+export default { title: "Content|Copy" };
 
 export const pageTitleAndDescription = () => `
 <section class="container">

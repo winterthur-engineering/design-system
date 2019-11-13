@@ -136,6 +136,10 @@
 .BBMembershipFormTable {
   & > tbody > tr {
     @extend .row;
+
+    & > td {
+      @extend .col;
+    }
   }
 }
 

@@ -17,7 +17,6 @@ Use the links below to find the content you need.
 - [Extending Bootstrap classes (w .video)](./extending-bootstrap.md) - Override generated Bootstrap classes to further customize the look and feel of the UI
 - [Creating new styles and content (w .video)](./create-new-styles.md) - Create new styles that either extend your customized bootstrap styles or make new ones
 - [Overriding NetCommunity defaults (w .video)](./overriding-nc.md) - Shows how to override the default styles that NetCommunity provides
-- [Upgrading dependencies (w .video)](./upgrade-dependencies.md) - Details how to upgrade bootstrap and other project dependencies to new versions
 
 ## Deployment
 

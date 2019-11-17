@@ -2,7 +2,7 @@
 
 This document will help you get your development environment up and running so you can create styles and new content
 
-Follow the process below to get started. If none of it makes sense to you, check out this video that briefly walks through the bootstrapping process
+Follow the process below to get started. If none of it makes sense to you, [check out this video](https://youtu.be/ic66kzDUXs4) that briefly walks through the bootstrapping process
 
 ## 1. Download `node` and `npm`
 

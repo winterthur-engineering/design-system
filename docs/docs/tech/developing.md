@@ -8,4 +8,4 @@ You can create different stories that load markup and the existing styles that y
 
 Read the [storybook documentation](https://storybook.js.org/docs/guides/guide-html/#step-4-write-your-stories) if you have any questions on creating stories.
 
-You can also check out [this video]() that walks through the entire development environment including writing new stories.
+You can also [check out this video](https://youtu.be/5MZD7AwN9zg) that walks through the entire development environment including writing new stories.

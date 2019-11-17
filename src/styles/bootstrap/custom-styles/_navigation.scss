@@ -1,0 +1,66 @@
+@include make-custom-style {
+  &-nav {
+    &-spacer {
+      &:after {
+        content: "\00A0";
+      }
+      &:before {
+        content: "\00A0\2022";
+        line-height: 40px;
+        color: $primary;
+      }
+    }
+
+    &-item {
+      &-social {
+        height: 40px;
+        width: 40px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+
+        &:hover {
+          i {
+            color: #dabc74;
+          }
+        }
+
+        a {
+          display: flex;
+          flex-direction: row;
+          justify-content: center;
+          align-items: center;
+          text-decoration: none;
+        }
+
+        i {
+          font-size: 17px;
+          color: $secondary;
+        }
+      }
+    }
+  }
+
+  &-navbar {
+    &-top {
+      ul {
+        & > li {
+          a,
+          span {
+            font-size: 13px;
+            height: 40px;
+            line-height: 40px;
+            padding: 0 !important;
+          }
+        }
+      }
+
+      &-left {
+        @include media-breakpoint-down(sm) {
+          flex-direction: row;
+        }
+      }
+    }
+  }
+}

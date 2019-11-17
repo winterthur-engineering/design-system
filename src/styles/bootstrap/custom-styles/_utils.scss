@@ -1,3 +1,9 @@
+@mixin make-custom-style {
+  .winterthur {
+    @content;
+  }
+}
+
 @mixin make-section {
   margin: map-get($map: $spacers, $key: 5) auto;
   padding: 0 map-get($map: $spacers, $key: 4);

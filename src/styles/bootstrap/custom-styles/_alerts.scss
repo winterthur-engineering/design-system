@@ -1,0 +1,5 @@
+@include make-custom-style {
+  &-alert {
+    background: $primary;
+  }
+}
